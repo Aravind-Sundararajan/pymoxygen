@@ -67,6 +67,7 @@ class DoxygenParser:
         self.root = Compound()
 
     def to_markdown(self, element, context=None):
+        print(element)
         s = ''
         context = context or []
         if isinstance(element, str):
@@ -225,8 +226,9 @@ class DoxygenParser:
         dest['summary'] = summary
 
     def parse_members(self, compound, props, members_def):
-        for prop in props:
-            compound[prop] = props[prop]
+        print(props)
+        for prop in list(props.keys()):
+            compound[prop]= props[prop]
 
         self.references[compound.refid] = compound
 
@@ -398,7 +400,9 @@ class DoxygenParser:
                     self.assign_namespace_to_group(compound, self.references[namespace_def.attrib['refid']])
 
     def parse_index(self, root, index, options):
+        print(index)
         for element in index:
+            print(element)
             compound = root.find(element.attrib['refid'], element.find('name').text, True)
             self.parse_members(compound, element.attrib, element.findall('member'))
 
@@ -407,5 +411,27 @@ class DoxygenParser:
                 doxygen = ET.parse(os.path.join(options['directory'], compound['refid'] + '.xml'))
                 self.parse_compound(compound, doxygen.find('//compounddef'))
 
+    def load_index(self, options, callback):
+
+        try:
+            with open(os.path.join(options['directory'], 'index.xml'), 'r', encoding='utf-8') as file:
+                data = file.read()
+        except IOError as err:
+            callback('Failed to load doxygen XML: ' + str(err))
+            return
+
+        try:
+            xml_parser = ET.fromstring(data)
+        except ET.ParseError as err:
+            callback('Failed to parse doxygen XML: ' + str(err))
+            return
+
+        self.parse_index(self.root, xml_parser.findall('compound'), options)
+        callback(err, self.root)
+
     def inline(self, strings):
         return re.sub(r'\n+', '', ' '.join(strings))
+
+if __name__ == "__main__":
+    c = Compound()
+    print(c)

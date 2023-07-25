@@ -1,13 +1,14 @@
 import os
-import util
-from logger import getLogger
+import re
+import python_utils as util
+from moxygen.logger import getLogger
 
 def inline(code):
     if isinstance(code, list):
         s = ''
         is_inline = False
         for e in code:
-            refs = re.split(r"(\[.*\]\(.*\)|\n|\s{2}\n)", e)
+            refs = re.split(r"(\[.*\]\(.*\)|\n|\s{2}\n)", e)    
             for f in refs:
                 if f.startswith('['):
                     # link

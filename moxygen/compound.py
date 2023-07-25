@@ -1,4 +1,4 @@
-from logger import getLogger
+from moxygen.logger import getLogger
 
 class Compound:
     def __init__(self, parent, id, name):
@@ -9,6 +9,11 @@ class Compound:
         self.members = []
         self.basecompoundref = []
         self.filtered = {}
+
+    def __setitem__(self, value):
+            """operator overload [] assignment"""
+            self.compounds[value] = value
+            return 0
 
     def find(self, id, name, create):
         compound = self.compounds.get(id)
@@ -69,6 +74,3 @@ class Compound:
             result.extend(categories.get(category, []))
 
         return result
-
-# Export the Compound class
-module = Compound
