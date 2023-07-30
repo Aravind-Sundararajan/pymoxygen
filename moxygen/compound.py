@@ -1,8 +1,12 @@
 from moxygen.logger import getLogger
 
+from functools import reduce
+from itertools import chain
+
 class Compound:
-    def __init__(self, parent, id, name):
+    def __init__(self, parent=None, id='', name=''):
         self.parent = parent
+        self.kind = "dir"
         self.id = id
         self.name = name
         self.compounds = {}
@@ -10,67 +14,58 @@ class Compound:
         self.basecompoundref = []
         self.filtered = {}
 
-    def __setitem__(self, value):
-            """operator overload [] assignment"""
-            self.compounds[value] = value
-            return 0
-
-    def find(self, id, name, create):
+    def find(self, id, name, create=False):
         compound = self.compounds.get(id)
-
         if not compound and create:
             compound = Compound(self, id, name)
             self.compounds[id] = compound
-
         return compound
 
     def to_array(self, type='compounds', kind=None):
         arr = list(self.compounds.values()) if type == 'compounds' else self.members
 
-        if type == 'compounds':
-            all_items = []
-            for compound in arr:
-                if not kind or compound.kind == kind:
-                    all_items.append(compound)
-                    all_items.extend(compound.to_array(type, kind))
-            arr = all_items
-
-        return arr
+        if kind:
+            arr = [compound for compound in arr if not kind or compound.kind == kind]
+        all_arr = []
+        for compound in arr:
+            this_arr = compound.to_array(type, kind)
+            all_arr = all_arr + this_arr
+        return list(chain(all_arr))
 
     def to_filtered_array(self, type='compounds'):
-        all_items = []
-        for item in self.filtered.get(type, []):
-            children = item.to_filtered_array(type)
-            all_items.append(item)
-            all_items.extend(children)
-        return all_items
+        all_arr = [item.to_filtered_array(type) for item in self.filtered.get(type, [])]
+        return list(chain(all_arr))
 
     def filter_children(self, filters, groupid):
-        for compound in self.to_array('compounds'):
-            compound.filtered['members'] = compound.filter(compound.members, 'section', filters['members'], groupid)
-            compound.filtered['compounds'] = compound.filter(compound.compounds, 'kind', filters['compounds'], groupid)
-        self.filtered['members'] = self.filter(self.members, 'section', filters['members'], groupid)
-        self.filtered['compounds'] = self.filter(self.compounds, 'kind', filters['compounds'], groupid)
+        member_filter = ""
+        compound_filter = ""
 
-    def filter(self, collection, key, filter_list, groupid):
+        if filters is not None:
+            member_filter = filters['members']
+            compound_filter = filters['compound']
+
+        for compound in self.to_array('compounds'):
+            compound.filtered['members'] = compound.filter(compound.members, 'section', member_filter, groupid)
+            compound.filtered['compounds'] = compound.filter(compound.compounds, 'kind', compound_filter, groupid)
+
+        self.filtered['members'] = self.filter(self.members, 'section',  member_filter, groupid)
+        self.filtered['compounds'] = self.filter(self.compounds, 'kind', compound_filter, groupid)
+
+    def filter(self, collection, key, filters, groupid):
         categories = {}
         result = []
-
-        for item in collection.values():
-            if item:
-
-                # Skip empty namespaces
-                if item.kind == 'namespace':
-                    if not item.filtered.get('compounds') and not item.filtered.get('members'):
+        if collection:
+            for name, item in collection.items():
+                if item:
+                    if item.kind == 'namespace' and 'compounds' not in item.filtered and 'members' not in item.filtered:
                         continue
 
-                # Skip items not belonging to the current group
-                elif groupid and item.groupid != groupid:
-                    continue
 
-                categories.setdefault(item[key], []).append(item)
+                    if groupid and item.groupid != groupid:
+                        continue
+                    categories.setdefault(item.__getattribute__(key), []).append(item)
 
-        for category in filter_list:
-            result.extend(categories.get(category, []))
+            for category in filters:
+                result += categories.get(category, [])
 
         return result

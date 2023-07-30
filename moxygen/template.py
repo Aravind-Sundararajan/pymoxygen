@@ -20,25 +20,26 @@ class Renderer:
                 template = handlebars.Compiler().compile(file.read()) #NoEscape=True, ,  strict=True
                 self.templates[filename[:-3]] = template
 
-    def render(self, compound):
+    def render(self, compound_array):
         log = logging.getLogger(__name__)
         template = None
-
-        log.info(f'Rendering {compound["kind"]} {compound["fullname"]}')
-
-        if compound["kind"] == 'index':
+        compound = compound_array[0]
+        log.info(f'Rendering {compound.kind} {compound.name}')
+        for elem in dir(compound):
+            print(elem + " : " + str(compound.__getattribute__(elem)))
+        if compound.kind == 'index':
             template = 'index'
-        elif compound["kind"] == 'page':
+        elif compound.kind == 'page':
             template = 'page'
-        elif compound["kind"] in ['group', 'namespace']:
+        elif compound.kind in ['group', 'namespace']:
             if len(compound["compounds"]) == 1 and \
-               compound["compounds"][next(iter(compound["compounds"]))]["kind"] == 'namespace':
+               compound.compounds[next(iter(compound["compounds"]))]["kind"] == 'namespace':
                 return None
             template = 'namespace'
-        elif compound["kind"] in ['class', 'struct', 'interface']:
+        elif compound.kind in ['class', 'struct', 'interface']:
             template = 'class'
         else:
-            log.warning(f'Cannot render {compound["kind"]} {compound["fullname"]}')
+            log.warning(f'Cannot render {compound.kind} {compound.name}')
             log.warning(f'Skipping {compound}')
             return None
 
@@ -71,5 +72,3 @@ class Renderer:
 if __name__ == "__main__":
     r = Renderer()
     options = {}
-
-    print(r)

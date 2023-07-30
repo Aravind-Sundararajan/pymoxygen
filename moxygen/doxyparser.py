@@ -2,64 +2,8 @@ import os
 import xml.etree.ElementTree as ET
 import re
 from functools import reduce
-
-class Compound:
-    def __init__(self, parent=None, id='', name=''):
-        self.parent = parent
-        self.id = id
-        self.name = name
-        self.compounds = {}
-        self.members = []
-        self.basecompoundref = []
-        self.filtered = {}
-
-    def find(self, id, name, create=False):
-        compound = self.compounds.get(id)
-        if not compound and create:
-            compound = Compound(self, id, name)
-            self.compounds[id] = compound
-        return compound
-
-    def to_array(self, type='compounds', kind=None):
-        arr = list(self.compounds.values()) if type == 'compounds' else self.members
-
-        if kind:
-            arr = [compound for compound in arr if not kind or compound.kind == kind]
-
-        all_arr = arr + [compound.to_array(type, kind) for compound in arr]
-        return list(reduce(lambda x, y: x + y, all_arr, []))
-
-    def to_filtered_array(self, type='compounds'):
-        all_arr = [item.to_filtered_array(type) for item in self.filtered.get(type, [])]
-        return list(reduce(lambda x, y: x + y, all_arr, []))
-
-    def filter_children(self, filters, groupid):
-        for compound in self.to_array('compounds'):
-            compound.filtered['members'] = compound.filter(compound.members, 'section', filters['members'], groupid)
-            compound.filtered['compounds'] = compound.filter(compound.compounds, 'kind', filters['compounds'], groupid)
-
-        self.filtered['members'] = self.filter(self.members, 'section', filters['members'], groupid)
-        self.filtered['compounds'] = self.filter(self.compounds, 'kind', filters['compounds'], groupid)
-
-    def filter(self, collection, key, filters, groupid):
-        categories = {}
-        result = []
-
-        for name, item in collection.items():
-            if item:
-                if item.kind == 'namespace' and not (item.filtered['compounds'] or item.filtered['members']):
-                    continue
-
-                if groupid and item.groupid != groupid:
-                    continue
-
-                categories.setdefault(item[key], []).append(item)
-
-        for category in filters:
-            result += categories.get(category, [])
-
-        return result
-
+from itertools import chain
+from moxygen.compound import Compound
 
 class DoxygenParser:
     def __init__(self):
@@ -67,7 +11,6 @@ class DoxygenParser:
         self.root = Compound()
 
     def to_markdown(self, element, context=None):
-        print(element)
         s = ''
         context = context or []
         if isinstance(element, str):
@@ -213,7 +156,13 @@ class DoxygenParser:
         return re.sub(r'^[\s\t\r\n]+|[\s\t\r\n]+$', '', text)
 
     def copy(self, dest, prop, def_val):
-        dest[prop] = self.trim(self.to_markdown(def_val[prop]))
+        if prop in def_val.keys():
+            dest.__setattr__(prop, self.trim(self.to_markdown(def_val.get(prop))))
+        else:
+            try:
+                dest[prop] = self.trim(self.to_markdown(""))
+            except Exception:
+                dest.__setattr__(prop, self.trim(self.to_markdown("")))
 
     def summary(self, dest, def_val):
         summary = self.trim(self.to_markdown(def_val.get('briefdescription', '')))
@@ -223,25 +172,26 @@ class DoxygenParser:
                 first_sentence = summary.split('\n', 1)[0]
                 if first_sentence:
                     summary = first_sentence
-        dest['summary'] = summary
+        try:
+            dest.__setattr__('summary', summary)
+        except Exception:
+            dest['summary'] =  summary
 
     def parse_members(self, compound, props, members_def):
-        print(props)
         for prop in list(props.keys()):
-            compound[prop]= props[prop]
+            compound.__setattr__(prop, props[prop])
 
         self.references[compound.refid] = compound
-
         if members_def:
             for member_def in members_def:
-                member = {'name': member_def['name'][0], 'parent': compound}
+                member = {'refid': member_def.get("refid"), 'parent': compound}
                 compound.members.append(member)
                 for prop in member_def.attrib:
                     member[prop] = member_def.attrib[prop]
-                self.references[member.refid] = member
+                self.references[member["refid"]] = member
 
     def parse_member(self, member, section, member_def):
-        print('Processing member {} {}'.format(member['kind'], member['name']))
+        print('Processing member {} {}'.format(member['kind'], member['refid']))
         member['section'] = section
         self.copy(member, 'briefdescription', member_def)
         self.copy(member, 'detaileddescription', member_def)
@@ -267,7 +217,7 @@ class DoxygenParser:
             m.extend(['virtual ', ' ']) if member_def.attrib.get('virt') == 'virtual' else m
             m.extend([self.to_markdown(member_def.find('type')), ' '])
             m.extend([member_def.attrib.get('explicit'), ' '] if member_def.attrib.get('explicit') else [])
-            m.extend([self.ref_link(member['name'], member['refid']), '('])
+            m.extend([self.ref_link(member['refid'], member['refid']), '('])
 
             if member_def.find('param'):
                 params = member_def.findall('param')
@@ -313,23 +263,23 @@ class DoxygenParser:
             print('namespace mismatch:', compound.name, '!=', child['namespace'])
         if child['parent']:
             del child['parent']['compounds'][child['id']]
-        compound['compounds'][child['id']] = child
+        compound.compounds[child['id']] = child
         child['parent'] = compound
 
     def assign_namespace_to_group(self, compound, child):
-        compound['compounds'][child['id']] = child
+        compound.compounds[child['id']] = child
         for id in child['compounds']:
-            if id in compound['compounds']:
-                del compound['compounds'][id]
+            if id in compound.compounds:
+                del compound.compounds[id]
 
     def assign_class_to_group(self, compound, child):
-        compound['compounds'][child['id']] = child
-        child['groupid'] = compound['id']
-        child['groupname'] = compound['name']
+        compound.compounds[child['id']] = child
+        child['groupid'] = compound.id
+        child['groupname'] = compound.name
 
         for member in child['members']:
-            member['groupid'] = compound['id']
-            member['groupname'] = compound['name']
+            member['groupid'] = compound.id
+            member['groupname'] = compound.name
 
     def extract_page_sections(self, page, elements):
         for element in elements:
@@ -342,18 +292,19 @@ class DoxygenParser:
                 self.extract_page_sections(page, element['$$'])
 
     def parse_compound(self, compound, compound_def):
-        print('Processing compound', compound['name'])
+        print("compound def props:")
         for prop in compound_def.attrib:
-            compound[prop] = compound_def.attrib[prop]
-
-        compound['fullname'] = compound_def.find('compoundname').text.strip()
+            print(prop + " : " + compound_def.attrib[prop])
+            compound.__setattr__(prop,compound_def.attrib[prop])
+        #compound.__setattr__('kind', compound_def.find('kind').strip())
+        #compound.__setattr__('fullname', compound_def.find('compoundname').text.strip())
         self.copy(compound, 'briefdescription', compound_def)
         self.copy(compound, 'detaileddescription', compound_def)
         self.summary(compound, compound_def)
 
         if compound_def.find('basecompoundref'):
             for basecompoundref in compound_def.findall('basecompoundref'):
-                compound['basecompoundref'].append({'prot': basecompoundref.attrib['prot'], 'name': basecompoundref.text.strip()})
+                compound.basecompoundref.append({'prot': basecompoundref.attrib['prot'], 'name': basecompoundref.text.strip()})
 
         if compound_def.find('sectiondef'):
             for section in compound_def.findall('sectiondef'):
@@ -361,58 +312,55 @@ class DoxygenParser:
                 if members_def:
                     for member_def in members_def:
                         member = self.references[member_def.attrib['id']]
-                        if compound['kind'] == 'group':
-                            member['groupid'] = compound['id']
-                            member['groupname'] = compound['name']
-                        elif compound['kind'] == 'file':
+                        if compound.kind == 'group':
+                            member['groupid'] = compound.id
+                            member['groupname'] = compound.name
+                        elif compound.kind == 'file':
                             self.root['members'].append(member)
 
                         self.parse_member(member, section.attrib['kind'], member_def)
 
-        compound['proto'] = self.inline([compound['kind'], ' ', self.ref_link(compound['name'], compound['refid'])])
+        compound.__setattr__('proto', self.inline([compound.kind, ' ', self.ref_link(compound.name, compound.refid)]))
 
         # kind specific parsing
-        if compound['kind'] in ('class', 'struct', 'union', 'typedef'):
-            namespace_ref = compound['name'].split('::')
-            compound['namespace'] = '::'.join(namespace_ref[:-1])
+        if compound.kind in ('class', 'struct', 'union', 'typedef'):
+            namespace_ref = compound.name.split('::')
+            compound.namespace = '::'.join(namespace_ref[:-1])
 
-        elif compound['kind'] == 'file':
+        elif compound.kind == 'file':
             pass
 
-        elif compound['kind'] == 'page':
+        elif compound.kind == 'page':
             self.extract_page_sections(compound, compound_def.findall('.//sect1|.//sect2|.//sect3'))
 
-        elif compound['kind'] in ('namespace', 'group'):
-            if compound['kind'] == 'group':
-                compound['groupid'] = compound['id']
-                compound['groupname'] = compound['name']
+        elif compound.kind in ('namespace', 'group'):
+            if compound.kind == 'group':
+                compound.groupid = compound.id
+                compound.groupname = compound.name
 
             if compound_def.find('innerclass'):
                 for innerclass_def in compound_def.findall('innerclass'):
-                    if compound['kind'] == 'namespace':
+                    if compound.kind == 'namespace':
                         self.assign_to_namespace(compound, self.references[innerclass_def.attrib['refid']])
-                    elif compound['kind'] == 'group':
+                    elif compound.kind == 'group':
                         self.assign_class_to_group(compound, self.references[innerclass_def.attrib['refid']])
 
             if compound_def.find('innernamespace'):
-                compound['innernamespaces'] = []
+                compound.innernamespaces = []
                 for namespace_def in compound_def.findall('innernamespace'):
                     self.assign_namespace_to_group(compound, self.references[namespace_def.attrib['refid']])
 
     def parse_index(self, root, index, options):
-        print(index)
         for element in index:
-            print(element)
             compound = root.find(element.attrib['refid'], element.find('name').text, True)
             self.parse_members(compound, element.attrib, element.findall('member'))
-
-            if compound['kind'] != 'file':
-                print('Parsing', os.path.join(options['directory'], compound['refid'] + '.xml'))
-                doxygen = ET.parse(os.path.join(options['directory'], compound['refid'] + '.xml'))
+            if compound.kind != 'file':
+                print('Parsing', os.path.join(options['directory'], compound.refid + '.xml'))
+                doxygen = ET.parse(os.path.join(options['directory'], compound.refid + '.xml'))
                 self.parse_compound(compound, doxygen.find('//compounddef'))
 
     def load_index(self, options, callback):
-
+        err = None
         try:
             with open(os.path.join(options['directory'], 'index.xml'), 'r', encoding='utf-8') as file:
                 data = file.read()
@@ -432,6 +380,6 @@ class DoxygenParser:
     def inline(self, strings):
         return re.sub(r'\n+', '', ' '.join(strings))
 
+
 if __name__ == "__main__":
     c = Compound()
-    print(c)
