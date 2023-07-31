@@ -1,0 +1,941 @@
+Parsing C:\pymoxygen\example\xml\classtransport_1_1Bicycle.xml
+{'refid': 'classtransport_1_1Bicycle_1a7df6cce8f18012fb07bef5be9dadd8ef', 'parent': <moxygen.compound.Compound object at 0x0000016B5217BD30>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a7df6cce8f18012fb07bef5be9dadd8ef
+{'refid': 'classtransport_1_1Bicycle_1a7d2be572f09c78b4d4ae38ef22f3e98b', 'parent': <moxygen.compound.Compound object at 0x0000016B5217BD30>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a7d2be572f09c78b4d4ae38ef22f3e98b
+{'refid': 'classtransport_1_1Bicycle_1a5f62d09b772a7705634bfb3551803c25', 'parent': <moxygen.compound.Compound object at 0x0000016B5217BD30>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a5f62d09b772a7705634bfb3551803c25
+Parsing C:\pymoxygen\example\xml\classtransport_1_1MountainBike.xml
+{'refid': 'classtransport_1_1MountainBike_1a04caecd7e5ff7572b6ac1dc283510301', 'parent': <moxygen.compound.Compound object at 0x0000016B5217B2E0>, 'kind': 'function'}
+Processing member function classtransport_1_1MountainBike_1a04caecd7e5ff7572b6ac1dc283510301
+{'refid': 'classtransport_1_1MountainBike_1afd02513876a196e98acaacdc555aeb52', 'parent': <moxygen.compound.Compound object at 0x0000016B5217B2E0>, 'kind': 'function'}
+Processing member function classtransport_1_1MountainBike_1afd02513876a196e98acaacdc555aeb52
+Parsing C:\pymoxygen\example\xml\classtransport_1_1RacingBike.xml
+{'refid': 'classtransport_1_1RacingBike_1ab557c5727daa07a5001782d5dcd46c5b', 'parent': <moxygen.compound.Compound object at 0x0000016B5217BD90>, 'kind': 'function'}
+Processing member function classtransport_1_1RacingBike_1ab557c5727daa07a5001782d5dcd46c5b
+{'refid': 'classtransport_1_1RacingBike_1ad32dc3b06a453fba3e20329842bb318b', 'parent': <moxygen.compound.Compound object at 0x0000016B5217BD90>, 'kind': 'function'}
+Processing member function classtransport_1_1RacingBike_1ad32dc3b06a453fba3e20329842bb318b
+Parsing C:\pymoxygen\example\xml\namespacetransport.xml
+Parsing C:\pymoxygen\example\xml\group__bicycle.xml
+Parsing C:\pymoxygen\example\xml\group__racingbike.xml
+Parsing C:\pymoxygen\example\xml\group__mountainbike.xml
+Parsing C:\pymoxygen\example\xml\md_src_2changelog.xml
+Parsing C:\pymoxygen\example\xml\md_src_2overview.xml
+Parsing C:\pymoxygen\example\xml\dir_68267d1309a1af8e8297ef4c3efbcdba.xml
+Parsing C:\pymoxygen\example\xml\classtransport_1_1Bicycle.xml
+{'refid': 'classtransport_1_1Bicycle_1a7df6cce8f18012fb07bef5be9dadd8ef', 'parent': <moxygen.compound.Compound object at 0x00000260F5F5FD30>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a7df6cce8f18012fb07bef5be9dadd8ef
+{'refid': 'classtransport_1_1Bicycle_1a7d2be572f09c78b4d4ae38ef22f3e98b', 'parent': <moxygen.compound.Compound object at 0x00000260F5F5FD30>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a7d2be572f09c78b4d4ae38ef22f3e98b
+{'refid': 'classtransport_1_1Bicycle_1a5f62d09b772a7705634bfb3551803c25', 'parent': <moxygen.compound.Compound object at 0x00000260F5F5FD30>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a5f62d09b772a7705634bfb3551803c25
+Parsing C:\pymoxygen\example\xml\classtransport_1_1MountainBike.xml
+{'refid': 'classtransport_1_1MountainBike_1a04caecd7e5ff7572b6ac1dc283510301', 'parent': <moxygen.compound.Compound object at 0x00000260F5F5F2E0>, 'kind': 'function'}
+Processing member function classtransport_1_1MountainBike_1a04caecd7e5ff7572b6ac1dc283510301
+{'refid': 'classtransport_1_1MountainBike_1afd02513876a196e98acaacdc555aeb52', 'parent': <moxygen.compound.Compound object at 0x00000260F5F5F2E0>, 'kind': 'function'}
+Processing member function classtransport_1_1MountainBike_1afd02513876a196e98acaacdc555aeb52
+Parsing C:\pymoxygen\example\xml\classtransport_1_1RacingBike.xml
+{'refid': 'classtransport_1_1RacingBike_1ab557c5727daa07a5001782d5dcd46c5b', 'parent': <moxygen.compound.Compound object at 0x00000260F5F5FD90>, 'kind': 'function'}
+Processing member function classtransport_1_1RacingBike_1ab557c5727daa07a5001782d5dcd46c5b
+{'refid': 'classtransport_1_1RacingBike_1ad32dc3b06a453fba3e20329842bb318b', 'parent': <moxygen.compound.Compound object at 0x00000260F5F5FD90>, 'kind': 'function'}
+Processing member function classtransport_1_1RacingBike_1ad32dc3b06a453fba3e20329842bb318b
+Parsing C:\pymoxygen\example\xml\namespacetransport.xml
+Parsing C:\pymoxygen\example\xml\group__bicycle.xml
+Parsing C:\pymoxygen\example\xml\group__racingbike.xml
+Parsing C:\pymoxygen\example\xml\group__mountainbike.xml
+Parsing C:\pymoxygen\example\xml\md_src_2changelog.xml
+Parsing C:\pymoxygen\example\xml\md_src_2overview.xml
+Parsing C:\pymoxygen\example\xml\dir_68267d1309a1af8e8297ef4c3efbcdba.xml
+Rendering dir 
+Cannot render dir 
+Skipping <moxygen.compound.Compound object at 0x00000260F5B0ECB0>
+Rendering class transport::Bicycle
+Parsing C:\pymoxygen\example\xml\classtransport_1_1Bicycle.xml
+{'refid': 'classtransport_1_1Bicycle_1a7df6cce8f18012fb07bef5be9dadd8ef', 'parent': <moxygen.compound.Compound object at 0x000001D5B71FF040>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a7df6cce8f18012fb07bef5be9dadd8ef
+{'refid': 'classtransport_1_1Bicycle_1a7d2be572f09c78b4d4ae38ef22f3e98b', 'parent': <moxygen.compound.Compound object at 0x000001D5B71FF040>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a7d2be572f09c78b4d4ae38ef22f3e98b
+{'refid': 'classtransport_1_1Bicycle_1a5f62d09b772a7705634bfb3551803c25', 'parent': <moxygen.compound.Compound object at 0x000001D5B71FF040>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a5f62d09b772a7705634bfb3551803c25
+Parsing C:\pymoxygen\example\xml\classtransport_1_1MountainBike.xml
+{'refid': 'classtransport_1_1MountainBike_1a04caecd7e5ff7572b6ac1dc283510301', 'parent': <moxygen.compound.Compound object at 0x000001D5B71FE7A0>, 'kind': 'function'}
+Processing member function classtransport_1_1MountainBike_1a04caecd7e5ff7572b6ac1dc283510301
+{'refid': 'classtransport_1_1MountainBike_1afd02513876a196e98acaacdc555aeb52', 'parent': <moxygen.compound.Compound object at 0x000001D5B71FE7A0>, 'kind': 'function'}
+Processing member function classtransport_1_1MountainBike_1afd02513876a196e98acaacdc555aeb52
+Parsing C:\pymoxygen\example\xml\classtransport_1_1RacingBike.xml
+{'refid': 'classtransport_1_1RacingBike_1ab557c5727daa07a5001782d5dcd46c5b', 'parent': <moxygen.compound.Compound object at 0x000001D5B71944F0>, 'kind': 'function'}
+Processing member function classtransport_1_1RacingBike_1ab557c5727daa07a5001782d5dcd46c5b
+{'refid': 'classtransport_1_1RacingBike_1ad32dc3b06a453fba3e20329842bb318b', 'parent': <moxygen.compound.Compound object at 0x000001D5B71944F0>, 'kind': 'function'}
+Processing member function classtransport_1_1RacingBike_1ad32dc3b06a453fba3e20329842bb318b
+Parsing C:\pymoxygen\example\xml\namespacetransport.xml
+Parsing C:\pymoxygen\example\xml\group__bicycle.xml
+Parsing C:\pymoxygen\example\xml\group__racingbike.xml
+Parsing C:\pymoxygen\example\xml\group__mountainbike.xml
+Parsing C:\pymoxygen\example\xml\md_src_2changelog.xml
+Parsing C:\pymoxygen\example\xml\md_src_2overview.xml
+Parsing C:\pymoxygen\example\xml\dir_68267d1309a1af8e8297ef4c3efbcdba.xml
+Rendering dir 
+Cannot render dir 
+Skipping <moxygen.compound.Compound object at 0x000001D5B7196CB0>
+Rendering class transport::Bicycle
+Parsing C:\pymoxygen\example\xml\classtransport_1_1Bicycle.xml
+{'refid': 'classtransport_1_1Bicycle_1a7df6cce8f18012fb07bef5be9dadd8ef', 'parent': <moxygen.compound.Compound object at 0x000001A92FEDBD30>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a7df6cce8f18012fb07bef5be9dadd8ef
+{'refid': 'classtransport_1_1Bicycle_1a7d2be572f09c78b4d4ae38ef22f3e98b', 'parent': <moxygen.compound.Compound object at 0x000001A92FEDBD30>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a7d2be572f09c78b4d4ae38ef22f3e98b
+{'refid': 'classtransport_1_1Bicycle_1a5f62d09b772a7705634bfb3551803c25', 'parent': <moxygen.compound.Compound object at 0x000001A92FEDBD30>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a5f62d09b772a7705634bfb3551803c25
+Parsing C:\pymoxygen\example\xml\classtransport_1_1MountainBike.xml
+{'refid': 'classtransport_1_1MountainBike_1a04caecd7e5ff7572b6ac1dc283510301', 'parent': <moxygen.compound.Compound object at 0x000001A92FEDB2E0>, 'kind': 'function'}
+Processing member function classtransport_1_1MountainBike_1a04caecd7e5ff7572b6ac1dc283510301
+{'refid': 'classtransport_1_1MountainBike_1afd02513876a196e98acaacdc555aeb52', 'parent': <moxygen.compound.Compound object at 0x000001A92FEDB2E0>, 'kind': 'function'}
+Processing member function classtransport_1_1MountainBike_1afd02513876a196e98acaacdc555aeb52
+Parsing C:\pymoxygen\example\xml\classtransport_1_1RacingBike.xml
+{'refid': 'classtransport_1_1RacingBike_1ab557c5727daa07a5001782d5dcd46c5b', 'parent': <moxygen.compound.Compound object at 0x000001A92FED0160>, 'kind': 'function'}
+Processing member function classtransport_1_1RacingBike_1ab557c5727daa07a5001782d5dcd46c5b
+{'refid': 'classtransport_1_1RacingBike_1ad32dc3b06a453fba3e20329842bb318b', 'parent': <moxygen.compound.Compound object at 0x000001A92FED0160>, 'kind': 'function'}
+Processing member function classtransport_1_1RacingBike_1ad32dc3b06a453fba3e20329842bb318b
+Parsing C:\pymoxygen\example\xml\namespacetransport.xml
+Parsing C:\pymoxygen\example\xml\group__bicycle.xml
+Parsing C:\pymoxygen\example\xml\group__racingbike.xml
+Parsing C:\pymoxygen\example\xml\group__mountainbike.xml
+Parsing C:\pymoxygen\example\xml\md_src_2changelog.xml
+Parsing C:\pymoxygen\example\xml\md_src_2overview.xml
+Parsing C:\pymoxygen\example\xml\dir_68267d1309a1af8e8297ef4c3efbcdba.xml
+Rendering dir 
+Cannot render dir 
+Skipping <moxygen.compound.Compound object at 0x000001A92FED03D0>
+Rendering class transport::Bicycle
+Parsing C:\pymoxygen\example\xml\classtransport_1_1Bicycle.xml
+{'refid': 'classtransport_1_1Bicycle_1a7df6cce8f18012fb07bef5be9dadd8ef', 'parent': <moxygen.compound.Compound object at 0x0000019666223D90>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a7df6cce8f18012fb07bef5be9dadd8ef
+{'refid': 'classtransport_1_1Bicycle_1a7d2be572f09c78b4d4ae38ef22f3e98b', 'parent': <moxygen.compound.Compound object at 0x0000019666223D90>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a7d2be572f09c78b4d4ae38ef22f3e98b
+{'refid': 'classtransport_1_1Bicycle_1a5f62d09b772a7705634bfb3551803c25', 'parent': <moxygen.compound.Compound object at 0x0000019666223D90>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a5f62d09b772a7705634bfb3551803c25
+Parsing C:\pymoxygen\example\xml\classtransport_1_1MountainBike.xml
+{'refid': 'classtransport_1_1MountainBike_1a04caecd7e5ff7572b6ac1dc283510301', 'parent': <moxygen.compound.Compound object at 0x00000196662232E0>, 'kind': 'function'}
+Processing member function classtransport_1_1MountainBike_1a04caecd7e5ff7572b6ac1dc283510301
+{'refid': 'classtransport_1_1MountainBike_1afd02513876a196e98acaacdc555aeb52', 'parent': <moxygen.compound.Compound object at 0x00000196662232E0>, 'kind': 'function'}
+Processing member function classtransport_1_1MountainBike_1afd02513876a196e98acaacdc555aeb52
+Parsing C:\pymoxygen\example\xml\classtransport_1_1RacingBike.xml
+{'refid': 'classtransport_1_1RacingBike_1ab557c5727daa07a5001782d5dcd46c5b', 'parent': <moxygen.compound.Compound object at 0x0000019666375180>, 'kind': 'function'}
+Processing member function classtransport_1_1RacingBike_1ab557c5727daa07a5001782d5dcd46c5b
+{'refid': 'classtransport_1_1RacingBike_1ad32dc3b06a453fba3e20329842bb318b', 'parent': <moxygen.compound.Compound object at 0x0000019666375180>, 'kind': 'function'}
+Processing member function classtransport_1_1RacingBike_1ad32dc3b06a453fba3e20329842bb318b
+Parsing C:\pymoxygen\example\xml\namespacetransport.xml
+Parsing C:\pymoxygen\example\xml\group__bicycle.xml
+Parsing C:\pymoxygen\example\xml\group__racingbike.xml
+Parsing C:\pymoxygen\example\xml\group__mountainbike.xml
+Parsing C:\pymoxygen\example\xml\md_src_2changelog.xml
+Parsing C:\pymoxygen\example\xml\md_src_2overview.xml
+Parsing C:\pymoxygen\example\xml\dir_68267d1309a1af8e8297ef4c3efbcdba.xml
+Rendering dir 
+Cannot render dir 
+Skipping <moxygen.compound.Compound object at 0x00000196660A6C50>
+Rendering class transport::Bicycle
+Parsing C:\pymoxygen\example\xml\classtransport_1_1Bicycle.xml
+{'refid': 'classtransport_1_1Bicycle_1a7df6cce8f18012fb07bef5be9dadd8ef', 'parent': <moxygen.compound.Compound object at 0x00000202F7567D30>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a7df6cce8f18012fb07bef5be9dadd8ef
+{'refid': 'classtransport_1_1Bicycle_1a7d2be572f09c78b4d4ae38ef22f3e98b', 'parent': <moxygen.compound.Compound object at 0x00000202F7567D30>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a7d2be572f09c78b4d4ae38ef22f3e98b
+{'refid': 'classtransport_1_1Bicycle_1a5f62d09b772a7705634bfb3551803c25', 'parent': <moxygen.compound.Compound object at 0x00000202F7567D30>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a5f62d09b772a7705634bfb3551803c25
+Parsing C:\pymoxygen\example\xml\classtransport_1_1MountainBike.xml
+{'refid': 'classtransport_1_1MountainBike_1a04caecd7e5ff7572b6ac1dc283510301', 'parent': <moxygen.compound.Compound object at 0x00000202F75672E0>, 'kind': 'function'}
+Processing member function classtransport_1_1MountainBike_1a04caecd7e5ff7572b6ac1dc283510301
+{'refid': 'classtransport_1_1MountainBike_1afd02513876a196e98acaacdc555aeb52', 'parent': <moxygen.compound.Compound object at 0x00000202F75672E0>, 'kind': 'function'}
+Processing member function classtransport_1_1MountainBike_1afd02513876a196e98acaacdc555aeb52
+Parsing C:\pymoxygen\example\xml\classtransport_1_1RacingBike.xml
+{'refid': 'classtransport_1_1RacingBike_1ab557c5727daa07a5001782d5dcd46c5b', 'parent': <moxygen.compound.Compound object at 0x00000202F74DDAB0>, 'kind': 'function'}
+Processing member function classtransport_1_1RacingBike_1ab557c5727daa07a5001782d5dcd46c5b
+{'refid': 'classtransport_1_1RacingBike_1ad32dc3b06a453fba3e20329842bb318b', 'parent': <moxygen.compound.Compound object at 0x00000202F74DDAB0>, 'kind': 'function'}
+Processing member function classtransport_1_1RacingBike_1ad32dc3b06a453fba3e20329842bb318b
+Parsing C:\pymoxygen\example\xml\namespacetransport.xml
+Parsing C:\pymoxygen\example\xml\group__bicycle.xml
+Parsing C:\pymoxygen\example\xml\group__racingbike.xml
+Parsing C:\pymoxygen\example\xml\group__mountainbike.xml
+Parsing C:\pymoxygen\example\xml\md_src_2changelog.xml
+Parsing C:\pymoxygen\example\xml\md_src_2overview.xml
+Parsing C:\pymoxygen\example\xml\dir_68267d1309a1af8e8297ef4c3efbcdba.xml
+Rendering dir 
+Cannot render dir 
+Skipping <moxygen.compound.Compound object at 0x00000202F74DECB0>
+Rendering class transport::Bicycle
+Parsing C:\pymoxygen\example\xml\classtransport_1_1Bicycle.xml
+{'refid': 'classtransport_1_1Bicycle_1a7df6cce8f18012fb07bef5be9dadd8ef', 'parent': <moxygen.compound.Compound object at 0x0000020DC0EA7D30>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a7df6cce8f18012fb07bef5be9dadd8ef
+{'refid': 'classtransport_1_1Bicycle_1a7d2be572f09c78b4d4ae38ef22f3e98b', 'parent': <moxygen.compound.Compound object at 0x0000020DC0EA7D30>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a7d2be572f09c78b4d4ae38ef22f3e98b
+{'refid': 'classtransport_1_1Bicycle_1a5f62d09b772a7705634bfb3551803c25', 'parent': <moxygen.compound.Compound object at 0x0000020DC0EA7D30>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a5f62d09b772a7705634bfb3551803c25
+Parsing C:\pymoxygen\example\xml\classtransport_1_1MountainBike.xml
+{'refid': 'classtransport_1_1MountainBike_1a04caecd7e5ff7572b6ac1dc283510301', 'parent': <moxygen.compound.Compound object at 0x0000020DC0EA72E0>, 'kind': 'function'}
+Processing member function classtransport_1_1MountainBike_1a04caecd7e5ff7572b6ac1dc283510301
+{'refid': 'classtransport_1_1MountainBike_1afd02513876a196e98acaacdc555aeb52', 'parent': <moxygen.compound.Compound object at 0x0000020DC0EA72E0>, 'kind': 'function'}
+Processing member function classtransport_1_1MountainBike_1afd02513876a196e98acaacdc555aeb52
+Parsing C:\pymoxygen\example\xml\classtransport_1_1RacingBike.xml
+{'refid': 'classtransport_1_1RacingBike_1ab557c5727daa07a5001782d5dcd46c5b', 'parent': <moxygen.compound.Compound object at 0x0000020DC0EA7D90>, 'kind': 'function'}
+Processing member function classtransport_1_1RacingBike_1ab557c5727daa07a5001782d5dcd46c5b
+{'refid': 'classtransport_1_1RacingBike_1ad32dc3b06a453fba3e20329842bb318b', 'parent': <moxygen.compound.Compound object at 0x0000020DC0EA7D90>, 'kind': 'function'}
+Processing member function classtransport_1_1RacingBike_1ad32dc3b06a453fba3e20329842bb318b
+Parsing C:\pymoxygen\example\xml\namespacetransport.xml
+Parsing C:\pymoxygen\example\xml\group__bicycle.xml
+Parsing C:\pymoxygen\example\xml\group__racingbike.xml
+Parsing C:\pymoxygen\example\xml\group__mountainbike.xml
+Parsing C:\pymoxygen\example\xml\md_src_2changelog.xml
+Parsing C:\pymoxygen\example\xml\md_src_2overview.xml
+Parsing C:\pymoxygen\example\xml\dir_68267d1309a1af8e8297ef4c3efbcdba.xml
+Rendering dir 
+Cannot render dir 
+Skipping <moxygen.compound.Compound object at 0x0000020DC06B4AC0>
+Rendering class transport::Bicycle
+Parsing C:\pymoxygen\example\xml\classtransport_1_1Bicycle.xml
+{'refid': 'classtransport_1_1Bicycle_1a7df6cce8f18012fb07bef5be9dadd8ef', 'parent': <moxygen.compound.Compound object at 0x0000022A574DD330>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a7df6cce8f18012fb07bef5be9dadd8ef
+{'refid': 'classtransport_1_1Bicycle_1a7d2be572f09c78b4d4ae38ef22f3e98b', 'parent': <moxygen.compound.Compound object at 0x0000022A574DD330>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a7d2be572f09c78b4d4ae38ef22f3e98b
+{'refid': 'classtransport_1_1Bicycle_1a5f62d09b772a7705634bfb3551803c25', 'parent': <moxygen.compound.Compound object at 0x0000022A574DD330>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a5f62d09b772a7705634bfb3551803c25
+Parsing C:\pymoxygen\example\xml\classtransport_1_1MountainBike.xml
+{'refid': 'classtransport_1_1MountainBike_1a04caecd7e5ff7572b6ac1dc283510301', 'parent': <moxygen.compound.Compound object at 0x0000022A574DDD80>, 'kind': 'function'}
+Processing member function classtransport_1_1MountainBike_1a04caecd7e5ff7572b6ac1dc283510301
+{'refid': 'classtransport_1_1MountainBike_1afd02513876a196e98acaacdc555aeb52', 'parent': <moxygen.compound.Compound object at 0x0000022A574DDD80>, 'kind': 'function'}
+Processing member function classtransport_1_1MountainBike_1afd02513876a196e98acaacdc555aeb52
+Parsing C:\pymoxygen\example\xml\classtransport_1_1RacingBike.xml
+{'refid': 'classtransport_1_1RacingBike_1ab557c5727daa07a5001782d5dcd46c5b', 'parent': <moxygen.compound.Compound object at 0x0000022A574DD2D0>, 'kind': 'function'}
+Processing member function classtransport_1_1RacingBike_1ab557c5727daa07a5001782d5dcd46c5b
+{'refid': 'classtransport_1_1RacingBike_1ad32dc3b06a453fba3e20329842bb318b', 'parent': <moxygen.compound.Compound object at 0x0000022A574DD2D0>, 'kind': 'function'}
+Processing member function classtransport_1_1RacingBike_1ad32dc3b06a453fba3e20329842bb318b
+Parsing C:\pymoxygen\example\xml\namespacetransport.xml
+Parsing C:\pymoxygen\example\xml\group__bicycle.xml
+Parsing C:\pymoxygen\example\xml\group__racingbike.xml
+Parsing C:\pymoxygen\example\xml\group__mountainbike.xml
+Parsing C:\pymoxygen\example\xml\md_src_2changelog.xml
+Parsing C:\pymoxygen\example\xml\md_src_2overview.xml
+Parsing C:\pymoxygen\example\xml\dir_68267d1309a1af8e8297ef4c3efbcdba.xml
+Rendering dir 
+Cannot render dir 
+Skipping <moxygen.compound.Compound object at 0x0000022A57370280>
+Rendering class transport::Bicycle
+Parsing C:\pymoxygen\example\xml\classtransport_1_1Bicycle.xml
+{'refid': 'classtransport_1_1Bicycle_1a7df6cce8f18012fb07bef5be9dadd8ef', 'parent': <moxygen.compound.Compound object at 0x000002A894D5F610>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a7df6cce8f18012fb07bef5be9dadd8ef
+{'refid': 'classtransport_1_1Bicycle_1a7d2be572f09c78b4d4ae38ef22f3e98b', 'parent': <moxygen.compound.Compound object at 0x000002A894D5F610>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a7d2be572f09c78b4d4ae38ef22f3e98b
+{'refid': 'classtransport_1_1Bicycle_1a5f62d09b772a7705634bfb3551803c25', 'parent': <moxygen.compound.Compound object at 0x000002A894D5F610>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a5f62d09b772a7705634bfb3551803c25
+Parsing C:\pymoxygen\example\xml\classtransport_1_1MountainBike.xml
+{'refid': 'classtransport_1_1MountainBike_1a04caecd7e5ff7572b6ac1dc283510301', 'parent': <moxygen.compound.Compound object at 0x000002A894D5F5E0>, 'kind': 'function'}
+Processing member function classtransport_1_1MountainBike_1a04caecd7e5ff7572b6ac1dc283510301
+{'refid': 'classtransport_1_1MountainBike_1afd02513876a196e98acaacdc555aeb52', 'parent': <moxygen.compound.Compound object at 0x000002A894D5F5E0>, 'kind': 'function'}
+Processing member function classtransport_1_1MountainBike_1afd02513876a196e98acaacdc555aeb52
+Parsing C:\pymoxygen\example\xml\classtransport_1_1RacingBike.xml
+{'refid': 'classtransport_1_1RacingBike_1ab557c5727daa07a5001782d5dcd46c5b', 'parent': <moxygen.compound.Compound object at 0x000002A89525E380>, 'kind': 'function'}
+Processing member function classtransport_1_1RacingBike_1ab557c5727daa07a5001782d5dcd46c5b
+{'refid': 'classtransport_1_1RacingBike_1ad32dc3b06a453fba3e20329842bb318b', 'parent': <moxygen.compound.Compound object at 0x000002A89525E380>, 'kind': 'function'}
+Processing member function classtransport_1_1RacingBike_1ad32dc3b06a453fba3e20329842bb318b
+Parsing C:\pymoxygen\example\xml\namespacetransport.xml
+Parsing C:\pymoxygen\example\xml\group__bicycle.xml
+Parsing C:\pymoxygen\example\xml\group__racingbike.xml
+Parsing C:\pymoxygen\example\xml\group__mountainbike.xml
+Parsing C:\pymoxygen\example\xml\md_src_2changelog.xml
+Parsing C:\pymoxygen\example\xml\md_src_2overview.xml
+Parsing C:\pymoxygen\example\xml\dir_68267d1309a1af8e8297ef4c3efbcdba.xml
+Rendering dir 
+Cannot render dir 
+Skipping <moxygen.compound.Compound object at 0x000002A894C34A90>
+Rendering class transport::Bicycle
+Parsing C:\pymoxygen\example\xml\classtransport_1_1Bicycle.xml
+{'refid': 'classtransport_1_1Bicycle_1a7df6cce8f18012fb07bef5be9dadd8ef', 'parent': <moxygen.compound.Compound object at 0x0000023EBCEEFD90>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a7df6cce8f18012fb07bef5be9dadd8ef
+{'refid': 'classtransport_1_1Bicycle_1a7d2be572f09c78b4d4ae38ef22f3e98b', 'parent': <moxygen.compound.Compound object at 0x0000023EBCEEFD90>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a7d2be572f09c78b4d4ae38ef22f3e98b
+{'refid': 'classtransport_1_1Bicycle_1a5f62d09b772a7705634bfb3551803c25', 'parent': <moxygen.compound.Compound object at 0x0000023EBCEEFD90>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a5f62d09b772a7705634bfb3551803c25
+Parsing C:\pymoxygen\example\xml\classtransport_1_1MountainBike.xml
+{'refid': 'classtransport_1_1MountainBike_1a04caecd7e5ff7572b6ac1dc283510301', 'parent': <moxygen.compound.Compound object at 0x0000023EBCEEF2E0>, 'kind': 'function'}
+Processing member function classtransport_1_1MountainBike_1a04caecd7e5ff7572b6ac1dc283510301
+{'refid': 'classtransport_1_1MountainBike_1afd02513876a196e98acaacdc555aeb52', 'parent': <moxygen.compound.Compound object at 0x0000023EBCEEF2E0>, 'kind': 'function'}
+Processing member function classtransport_1_1MountainBike_1afd02513876a196e98acaacdc555aeb52
+Parsing C:\pymoxygen\example\xml\classtransport_1_1RacingBike.xml
+{'refid': 'classtransport_1_1RacingBike_1ab557c5727daa07a5001782d5dcd46c5b', 'parent': <moxygen.compound.Compound object at 0x0000023EBCE2D840>, 'kind': 'function'}
+Processing member function classtransport_1_1RacingBike_1ab557c5727daa07a5001782d5dcd46c5b
+{'refid': 'classtransport_1_1RacingBike_1ad32dc3b06a453fba3e20329842bb318b', 'parent': <moxygen.compound.Compound object at 0x0000023EBCE2D840>, 'kind': 'function'}
+Processing member function classtransport_1_1RacingBike_1ad32dc3b06a453fba3e20329842bb318b
+Parsing C:\pymoxygen\example\xml\namespacetransport.xml
+Parsing C:\pymoxygen\example\xml\group__bicycle.xml
+Parsing C:\pymoxygen\example\xml\group__racingbike.xml
+Parsing C:\pymoxygen\example\xml\group__mountainbike.xml
+Parsing C:\pymoxygen\example\xml\md_src_2changelog.xml
+Parsing C:\pymoxygen\example\xml\md_src_2overview.xml
+Parsing C:\pymoxygen\example\xml\dir_68267d1309a1af8e8297ef4c3efbcdba.xml
+Rendering dir 
+Cannot render dir 
+Skipping <moxygen.compound.Compound object at 0x0000023EBCE2ECB0>
+Rendering class transport::Bicycle
+Parsing C:\pymoxygen\example\xml\classtransport_1_1Bicycle.xml
+{'refid': 'classtransport_1_1Bicycle_1a7df6cce8f18012fb07bef5be9dadd8ef', 'parent': <moxygen.compound.Compound object at 0x000002E7F226FD90>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a7df6cce8f18012fb07bef5be9dadd8ef
+{'refid': 'classtransport_1_1Bicycle_1a7d2be572f09c78b4d4ae38ef22f3e98b', 'parent': <moxygen.compound.Compound object at 0x000002E7F226FD90>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a7d2be572f09c78b4d4ae38ef22f3e98b
+{'refid': 'classtransport_1_1Bicycle_1a5f62d09b772a7705634bfb3551803c25', 'parent': <moxygen.compound.Compound object at 0x000002E7F226FD90>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a5f62d09b772a7705634bfb3551803c25
+Parsing C:\pymoxygen\example\xml\classtransport_1_1MountainBike.xml
+{'refid': 'classtransport_1_1MountainBike_1a04caecd7e5ff7572b6ac1dc283510301', 'parent': <moxygen.compound.Compound object at 0x000002E7F226F2E0>, 'kind': 'function'}
+Processing member function classtransport_1_1MountainBike_1a04caecd7e5ff7572b6ac1dc283510301
+{'refid': 'classtransport_1_1MountainBike_1afd02513876a196e98acaacdc555aeb52', 'parent': <moxygen.compound.Compound object at 0x000002E7F226F2E0>, 'kind': 'function'}
+Processing member function classtransport_1_1MountainBike_1afd02513876a196e98acaacdc555aeb52
+Parsing C:\pymoxygen\example\xml\classtransport_1_1RacingBike.xml
+{'refid': 'classtransport_1_1RacingBike_1ab557c5727daa07a5001782d5dcd46c5b', 'parent': <moxygen.compound.Compound object at 0x000002E7F298D840>, 'kind': 'function'}
+Processing member function classtransport_1_1RacingBike_1ab557c5727daa07a5001782d5dcd46c5b
+{'refid': 'classtransport_1_1RacingBike_1ad32dc3b06a453fba3e20329842bb318b', 'parent': <moxygen.compound.Compound object at 0x000002E7F298D840>, 'kind': 'function'}
+Processing member function classtransport_1_1RacingBike_1ad32dc3b06a453fba3e20329842bb318b
+Parsing C:\pymoxygen\example\xml\namespacetransport.xml
+Parsing C:\pymoxygen\example\xml\group__bicycle.xml
+Parsing C:\pymoxygen\example\xml\group__racingbike.xml
+Parsing C:\pymoxygen\example\xml\group__mountainbike.xml
+Parsing C:\pymoxygen\example\xml\md_src_2changelog.xml
+Parsing C:\pymoxygen\example\xml\md_src_2overview.xml
+Parsing C:\pymoxygen\example\xml\dir_68267d1309a1af8e8297ef4c3efbcdba.xml
+Rendering dir 
+Cannot render dir 
+Skipping <moxygen.compound.Compound object at 0x000002E7F298ECB0>
+Rendering class transport::Bicycle
+Rendering class transport::MountainBike
+Rendering class transport::RacingBike
+Rendering namespace transport
+Parsing C:\pymoxygen\example\xml\classtransport_1_1Bicycle.xml
+{'refid': 'classtransport_1_1Bicycle_1a7df6cce8f18012fb07bef5be9dadd8ef', 'parent': <moxygen.compound.Compound object at 0x00000205FC553D90>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a7df6cce8f18012fb07bef5be9dadd8ef
+{'refid': 'classtransport_1_1Bicycle_1a7d2be572f09c78b4d4ae38ef22f3e98b', 'parent': <moxygen.compound.Compound object at 0x00000205FC553D90>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a7d2be572f09c78b4d4ae38ef22f3e98b
+{'refid': 'classtransport_1_1Bicycle_1a5f62d09b772a7705634bfb3551803c25', 'parent': <moxygen.compound.Compound object at 0x00000205FC553D90>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a5f62d09b772a7705634bfb3551803c25
+Parsing C:\pymoxygen\example\xml\classtransport_1_1MountainBike.xml
+{'refid': 'classtransport_1_1MountainBike_1a04caecd7e5ff7572b6ac1dc283510301', 'parent': <moxygen.compound.Compound object at 0x00000205FC5532E0>, 'kind': 'function'}
+Processing member function classtransport_1_1MountainBike_1a04caecd7e5ff7572b6ac1dc283510301
+{'refid': 'classtransport_1_1MountainBike_1afd02513876a196e98acaacdc555aeb52', 'parent': <moxygen.compound.Compound object at 0x00000205FC5532E0>, 'kind': 'function'}
+Processing member function classtransport_1_1MountainBike_1afd02513876a196e98acaacdc555aeb52
+Parsing C:\pymoxygen\example\xml\classtransport_1_1RacingBike.xml
+{'refid': 'classtransport_1_1RacingBike_1ab557c5727daa07a5001782d5dcd46c5b', 'parent': <moxygen.compound.Compound object at 0x00000205FCC4D840>, 'kind': 'function'}
+Processing member function classtransport_1_1RacingBike_1ab557c5727daa07a5001782d5dcd46c5b
+{'refid': 'classtransport_1_1RacingBike_1ad32dc3b06a453fba3e20329842bb318b', 'parent': <moxygen.compound.Compound object at 0x00000205FCC4D840>, 'kind': 'function'}
+Processing member function classtransport_1_1RacingBike_1ad32dc3b06a453fba3e20329842bb318b
+Parsing C:\pymoxygen\example\xml\namespacetransport.xml
+Parsing C:\pymoxygen\example\xml\group__bicycle.xml
+Parsing C:\pymoxygen\example\xml\group__racingbike.xml
+Parsing C:\pymoxygen\example\xml\group__mountainbike.xml
+Parsing C:\pymoxygen\example\xml\md_src_2changelog.xml
+Parsing C:\pymoxygen\example\xml\md_src_2overview.xml
+Parsing C:\pymoxygen\example\xml\dir_68267d1309a1af8e8297ef4c3efbcdba.xml
+Rendering dir 
+Cannot render dir 
+Skipping <moxygen.compound.Compound object at 0x00000205FCC4ECB0>
+Rendering class transport::Bicycle
+Rendering class transport::MountainBike
+Rendering class transport::RacingBike
+Rendering namespace transport
+Rendering file bicycle.cpp
+Cannot render file bicycle.cpp
+Skipping <moxygen.compound.Compound object at 0x00000205FCC4D510>
+Rendering file bicycle.h
+Cannot render file bicycle.h
+Skipping <moxygen.compound.Compound object at 0x00000205FCC4DEA0>
+Rendering file changelog.md
+Cannot render file changelog.md
+Skipping <moxygen.compound.Compound object at 0x00000205FCC4DA50>
+Rendering file mountainbike.cpp
+Cannot render file mountainbike.cpp
+Skipping <moxygen.compound.Compound object at 0x00000205FCC4C1C0>
+Rendering file mountainbike.h
+Cannot render file mountainbike.h
+Skipping <moxygen.compound.Compound object at 0x00000205FCC4DB10>
+Rendering file overview.md
+Cannot render file overview.md
+Skipping <moxygen.compound.Compound object at 0x00000205FC553850>
+Rendering file racingbike.cpp
+Cannot render file racingbike.cpp
+Skipping <moxygen.compound.Compound object at 0x00000205FC553550>
+Rendering file racingbike.h
+Cannot render file racingbike.h
+Skipping <moxygen.compound.Compound object at 0x00000205FC5534C0>
+Rendering file transport.h
+Cannot render file transport.h
+Skipping <moxygen.compound.Compound object at 0x00000205FC553460>
+Rendering group bicycle
+Rendering group racingbike
+Rendering group mountainbike
+Rendering page md_src_2changelog
+Rendering page md_src_2overview
+Rendering dir src
+Cannot render dir src
+Skipping <moxygen.compound.Compound object at 0x00000205FC553130>
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Parsing C:\pymoxygen\example\xml\classtransport_1_1Bicycle.xml
+{'refid': 'classtransport_1_1Bicycle_1a7df6cce8f18012fb07bef5be9dadd8ef', 'parent': <moxygen.compound.Compound object at 0x00000224034A7190>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a7df6cce8f18012fb07bef5be9dadd8ef
+{'refid': 'classtransport_1_1Bicycle_1a7d2be572f09c78b4d4ae38ef22f3e98b', 'parent': <moxygen.compound.Compound object at 0x00000224034A7190>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a7d2be572f09c78b4d4ae38ef22f3e98b
+{'refid': 'classtransport_1_1Bicycle_1a5f62d09b772a7705634bfb3551803c25', 'parent': <moxygen.compound.Compound object at 0x00000224034A7190>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a5f62d09b772a7705634bfb3551803c25
+Parsing C:\pymoxygen\example\xml\classtransport_1_1MountainBike.xml
+{'refid': 'classtransport_1_1MountainBike_1a04caecd7e5ff7572b6ac1dc283510301', 'parent': <moxygen.compound.Compound object at 0x00000224034A67A0>, 'kind': 'function'}
+Processing member function classtransport_1_1MountainBike_1a04caecd7e5ff7572b6ac1dc283510301
+{'refid': 'classtransport_1_1MountainBike_1afd02513876a196e98acaacdc555aeb52', 'parent': <moxygen.compound.Compound object at 0x00000224034A67A0>, 'kind': 'function'}
+Processing member function classtransport_1_1MountainBike_1afd02513876a196e98acaacdc555aeb52
+Parsing C:\pymoxygen\example\xml\classtransport_1_1RacingBike.xml
+{'refid': 'classtransport_1_1RacingBike_1ab557c5727daa07a5001782d5dcd46c5b', 'parent': <moxygen.compound.Compound object at 0x000002240345D840>, 'kind': 'function'}
+Processing member function classtransport_1_1RacingBike_1ab557c5727daa07a5001782d5dcd46c5b
+{'refid': 'classtransport_1_1RacingBike_1ad32dc3b06a453fba3e20329842bb318b', 'parent': <moxygen.compound.Compound object at 0x000002240345D840>, 'kind': 'function'}
+Processing member function classtransport_1_1RacingBike_1ad32dc3b06a453fba3e20329842bb318b
+Parsing C:\pymoxygen\example\xml\namespacetransport.xml
+Parsing C:\pymoxygen\example\xml\group__bicycle.xml
+Parsing C:\pymoxygen\example\xml\group__racingbike.xml
+Parsing C:\pymoxygen\example\xml\group__mountainbike.xml
+Parsing C:\pymoxygen\example\xml\md_src_2changelog.xml
+Parsing C:\pymoxygen\example\xml\md_src_2overview.xml
+Parsing C:\pymoxygen\example\xml\dir_68267d1309a1af8e8297ef4c3efbcdba.xml
+Rendering dir 
+Cannot render dir 
+Skipping <moxygen.compound.Compound object at 0x000002240345ECB0>
+Rendering class transport::Bicycle
+Rendering class transport::MountainBike
+Rendering class transport::RacingBike
+Rendering namespace transport
+Rendering file bicycle.cpp
+Cannot render file bicycle.cpp
+Skipping <moxygen.compound.Compound object at 0x000002240345D510>
+Rendering file bicycle.h
+Cannot render file bicycle.h
+Skipping <moxygen.compound.Compound object at 0x000002240345DEA0>
+Rendering file changelog.md
+Cannot render file changelog.md
+Skipping <moxygen.compound.Compound object at 0x000002240345DA50>
+Rendering file mountainbike.cpp
+Cannot render file mountainbike.cpp
+Skipping <moxygen.compound.Compound object at 0x000002240345C1C0>
+Rendering file mountainbike.h
+Cannot render file mountainbike.h
+Skipping <moxygen.compound.Compound object at 0x000002240345DB10>
+Rendering file overview.md
+Cannot render file overview.md
+Skipping <moxygen.compound.Compound object at 0x00000224034A78E0>
+Rendering file racingbike.cpp
+Cannot render file racingbike.cpp
+Skipping <moxygen.compound.Compound object at 0x00000224034A7BE0>
+Rendering file racingbike.h
+Cannot render file racingbike.h
+Skipping <moxygen.compound.Compound object at 0x00000224034A7340>
+Rendering file transport.h
+Cannot render file transport.h
+Skipping <moxygen.compound.Compound object at 0x00000224034A6B60>
+Rendering group bicycle
+Rendering group racingbike
+Rendering group mountainbike
+Rendering page md_src_2changelog
+Rendering page md_src_2overview
+Rendering dir src
+Cannot render dir src
+Skipping <moxygen.compound.Compound object at 0x00000224034A68F0>
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Parsing C:\pymoxygen\example\xml\classtransport_1_1Bicycle.xml
+{'refid': 'classtransport_1_1Bicycle_1a7df6cce8f18012fb07bef5be9dadd8ef', 'parent': <moxygen.compound.Compound object at 0x0000025BAEC3BF40>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a7df6cce8f18012fb07bef5be9dadd8ef
+{'refid': 'classtransport_1_1Bicycle_1a7d2be572f09c78b4d4ae38ef22f3e98b', 'parent': <moxygen.compound.Compound object at 0x0000025BAEC3BF40>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a7d2be572f09c78b4d4ae38ef22f3e98b
+{'refid': 'classtransport_1_1Bicycle_1a5f62d09b772a7705634bfb3551803c25', 'parent': <moxygen.compound.Compound object at 0x0000025BAEC3BF40>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a5f62d09b772a7705634bfb3551803c25
+Parsing C:\pymoxygen\example\xml\classtransport_1_1MountainBike.xml
+{'refid': 'classtransport_1_1MountainBike_1a04caecd7e5ff7572b6ac1dc283510301', 'parent': <moxygen.compound.Compound object at 0x0000025BAEC3B280>, 'kind': 'function'}
+Processing member function classtransport_1_1MountainBike_1a04caecd7e5ff7572b6ac1dc283510301
+{'refid': 'classtransport_1_1MountainBike_1afd02513876a196e98acaacdc555aeb52', 'parent': <moxygen.compound.Compound object at 0x0000025BAEC3B280>, 'kind': 'function'}
+Processing member function classtransport_1_1MountainBike_1afd02513876a196e98acaacdc555aeb52
+Parsing C:\pymoxygen\example\xml\classtransport_1_1RacingBike.xml
+{'refid': 'classtransport_1_1RacingBike_1ab557c5727daa07a5001782d5dcd46c5b', 'parent': <moxygen.compound.Compound object at 0x0000025BAEBB5DB0>, 'kind': 'function'}
+Processing member function classtransport_1_1RacingBike_1ab557c5727daa07a5001782d5dcd46c5b
+{'refid': 'classtransport_1_1RacingBike_1ad32dc3b06a453fba3e20329842bb318b', 'parent': <moxygen.compound.Compound object at 0x0000025BAEBB5DB0>, 'kind': 'function'}
+Processing member function classtransport_1_1RacingBike_1ad32dc3b06a453fba3e20329842bb318b
+Parsing C:\pymoxygen\example\xml\namespacetransport.xml
+Parsing C:\pymoxygen\example\xml\group__bicycle.xml
+Parsing C:\pymoxygen\example\xml\group__racingbike.xml
+Parsing C:\pymoxygen\example\xml\group__mountainbike.xml
+Parsing C:\pymoxygen\example\xml\md_src_2changelog.xml
+Parsing C:\pymoxygen\example\xml\md_src_2overview.xml
+Parsing C:\pymoxygen\example\xml\dir_68267d1309a1af8e8297ef4c3efbcdba.xml
+Rendering dir 
+Cannot render dir 
+Skipping <moxygen.compound.Compound object at 0x0000025BAE585780>
+Rendering class transport::Bicycle
+Parsing C:\pymoxygen\example\xml\classtransport_1_1Bicycle.xml
+{'refid': 'classtransport_1_1Bicycle_1a7df6cce8f18012fb07bef5be9dadd8ef', 'parent': <moxygen.compound.Compound object at 0x0000022B3728AF80>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a7df6cce8f18012fb07bef5be9dadd8ef
+{'refid': 'classtransport_1_1Bicycle_1a7d2be572f09c78b4d4ae38ef22f3e98b', 'parent': <moxygen.compound.Compound object at 0x0000022B3728AF80>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a7d2be572f09c78b4d4ae38ef22f3e98b
+{'refid': 'classtransport_1_1Bicycle_1a5f62d09b772a7705634bfb3551803c25', 'parent': <moxygen.compound.Compound object at 0x0000022B3728AF80>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a5f62d09b772a7705634bfb3551803c25
+Parsing C:\pymoxygen\example\xml\classtransport_1_1MountainBike.xml
+{'refid': 'classtransport_1_1MountainBike_1a04caecd7e5ff7572b6ac1dc283510301', 'parent': <moxygen.compound.Compound object at 0x0000022B3728B7C0>, 'kind': 'function'}
+Processing member function classtransport_1_1MountainBike_1a04caecd7e5ff7572b6ac1dc283510301
+{'refid': 'classtransport_1_1MountainBike_1afd02513876a196e98acaacdc555aeb52', 'parent': <moxygen.compound.Compound object at 0x0000022B3728B7C0>, 'kind': 'function'}
+Processing member function classtransport_1_1MountainBike_1afd02513876a196e98acaacdc555aeb52
+Parsing C:\pymoxygen\example\xml\classtransport_1_1RacingBike.xml
+{'refid': 'classtransport_1_1RacingBike_1ab557c5727daa07a5001782d5dcd46c5b', 'parent': <moxygen.compound.Compound object at 0x0000022B372883A0>, 'kind': 'function'}
+Processing member function classtransport_1_1RacingBike_1ab557c5727daa07a5001782d5dcd46c5b
+{'refid': 'classtransport_1_1RacingBike_1ad32dc3b06a453fba3e20329842bb318b', 'parent': <moxygen.compound.Compound object at 0x0000022B372883A0>, 'kind': 'function'}
+Processing member function classtransport_1_1RacingBike_1ad32dc3b06a453fba3e20329842bb318b
+Parsing C:\pymoxygen\example\xml\namespacetransport.xml
+Parsing C:\pymoxygen\example\xml\group__bicycle.xml
+Parsing C:\pymoxygen\example\xml\group__racingbike.xml
+Parsing C:\pymoxygen\example\xml\group__mountainbike.xml
+Parsing C:\pymoxygen\example\xml\md_src_2changelog.xml
+Parsing C:\pymoxygen\example\xml\md_src_2overview.xml
+Parsing C:\pymoxygen\example\xml\dir_68267d1309a1af8e8297ef4c3efbcdba.xml
+Rendering dir 
+Cannot render dir 
+Skipping <moxygen.compound.Compound object at 0x0000022B370A7AC0>
+Rendering class transport::Bicycle
+Parsing C:\pymoxygen\example\xml\classtransport_1_1Bicycle.xml
+{'refid': 'classtransport_1_1Bicycle_1a7df6cce8f18012fb07bef5be9dadd8ef', 'parent': <moxygen.compound.Compound object at 0x000001945C20BD90>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a7df6cce8f18012fb07bef5be9dadd8ef
+{'refid': 'classtransport_1_1Bicycle_1a7d2be572f09c78b4d4ae38ef22f3e98b', 'parent': <moxygen.compound.Compound object at 0x000001945C20BD90>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a7d2be572f09c78b4d4ae38ef22f3e98b
+{'refid': 'classtransport_1_1Bicycle_1a5f62d09b772a7705634bfb3551803c25', 'parent': <moxygen.compound.Compound object at 0x000001945C20BD90>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a5f62d09b772a7705634bfb3551803c25
+Parsing C:\pymoxygen\example\xml\classtransport_1_1MountainBike.xml
+{'refid': 'classtransport_1_1MountainBike_1a04caecd7e5ff7572b6ac1dc283510301', 'parent': <moxygen.compound.Compound object at 0x000001945C20B2E0>, 'kind': 'function'}
+Processing member function classtransport_1_1MountainBike_1a04caecd7e5ff7572b6ac1dc283510301
+{'refid': 'classtransport_1_1MountainBike_1afd02513876a196e98acaacdc555aeb52', 'parent': <moxygen.compound.Compound object at 0x000001945C20B2E0>, 'kind': 'function'}
+Processing member function classtransport_1_1MountainBike_1afd02513876a196e98acaacdc555aeb52
+Parsing C:\pymoxygen\example\xml\classtransport_1_1RacingBike.xml
+{'refid': 'classtransport_1_1RacingBike_1ab557c5727daa07a5001782d5dcd46c5b', 'parent': <moxygen.compound.Compound object at 0x000001945C723400>, 'kind': 'function'}
+Processing member function classtransport_1_1RacingBike_1ab557c5727daa07a5001782d5dcd46c5b
+{'refid': 'classtransport_1_1RacingBike_1ad32dc3b06a453fba3e20329842bb318b', 'parent': <moxygen.compound.Compound object at 0x000001945C723400>, 'kind': 'function'}
+Processing member function classtransport_1_1RacingBike_1ad32dc3b06a453fba3e20329842bb318b
+Parsing C:\pymoxygen\example\xml\namespacetransport.xml
+Parsing C:\pymoxygen\example\xml\group__bicycle.xml
+Parsing C:\pymoxygen\example\xml\group__racingbike.xml
+Parsing C:\pymoxygen\example\xml\group__mountainbike.xml
+Parsing C:\pymoxygen\example\xml\md_src_2changelog.xml
+Parsing C:\pymoxygen\example\xml\md_src_2overview.xml
+Parsing C:\pymoxygen\example\xml\dir_68267d1309a1af8e8297ef4c3efbcdba.xml
+Rendering dir 
+Cannot render dir 
+Skipping <moxygen.compound.Compound object at 0x000001945C1BACB0>
+Rendering class transport::Bicycle
+Parsing C:\pymoxygen\example\xml\classtransport_1_1Bicycle.xml
+{'refid': 'classtransport_1_1Bicycle_1a7df6cce8f18012fb07bef5be9dadd8ef', 'parent': <moxygen.compound.Compound object at 0x000001C51ECCAF80>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a7df6cce8f18012fb07bef5be9dadd8ef
+{'refid': 'classtransport_1_1Bicycle_1a7d2be572f09c78b4d4ae38ef22f3e98b', 'parent': <moxygen.compound.Compound object at 0x000001C51ECCAF80>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a7d2be572f09c78b4d4ae38ef22f3e98b
+{'refid': 'classtransport_1_1Bicycle_1a5f62d09b772a7705634bfb3551803c25', 'parent': <moxygen.compound.Compound object at 0x000001C51ECCAF80>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a5f62d09b772a7705634bfb3551803c25
+Parsing C:\pymoxygen\example\xml\classtransport_1_1MountainBike.xml
+{'refid': 'classtransport_1_1MountainBike_1a04caecd7e5ff7572b6ac1dc283510301', 'parent': <moxygen.compound.Compound object at 0x000001C51ECCB9D0>, 'kind': 'function'}
+Processing member function classtransport_1_1MountainBike_1a04caecd7e5ff7572b6ac1dc283510301
+{'refid': 'classtransport_1_1MountainBike_1afd02513876a196e98acaacdc555aeb52', 'parent': <moxygen.compound.Compound object at 0x000001C51ECCB9D0>, 'kind': 'function'}
+Processing member function classtransport_1_1MountainBike_1afd02513876a196e98acaacdc555aeb52
+Parsing C:\pymoxygen\example\xml\classtransport_1_1RacingBike.xml
+{'refid': 'classtransport_1_1RacingBike_1ab557c5727daa07a5001782d5dcd46c5b', 'parent': <moxygen.compound.Compound object at 0x000001C51ECCAF20>, 'kind': 'function'}
+Processing member function classtransport_1_1RacingBike_1ab557c5727daa07a5001782d5dcd46c5b
+{'refid': 'classtransport_1_1RacingBike_1ad32dc3b06a453fba3e20329842bb318b', 'parent': <moxygen.compound.Compound object at 0x000001C51ECCAF20>, 'kind': 'function'}
+Processing member function classtransport_1_1RacingBike_1ad32dc3b06a453fba3e20329842bb318b
+Parsing C:\pymoxygen\example\xml\namespacetransport.xml
+Parsing C:\pymoxygen\example\xml\group__bicycle.xml
+Parsing C:\pymoxygen\example\xml\group__racingbike.xml
+Parsing C:\pymoxygen\example\xml\group__mountainbike.xml
+Parsing C:\pymoxygen\example\xml\md_src_2changelog.xml
+Parsing C:\pymoxygen\example\xml\md_src_2overview.xml
+Parsing C:\pymoxygen\example\xml\dir_68267d1309a1af8e8297ef4c3efbcdba.xml
+Rendering dir 
+Cannot render dir 
+Skipping <moxygen.compound.Compound object at 0x000001C51E5D5E40>
+Rendering class transport::Bicycle
+Parsing C:\pymoxygen\example\xml\classtransport_1_1Bicycle.xml
+{'refid': 'classtransport_1_1Bicycle_1a7df6cce8f18012fb07bef5be9dadd8ef', 'parent': <moxygen.compound.Compound object at 0x0000026F9CE23310>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a7df6cce8f18012fb07bef5be9dadd8ef
+{'refid': 'classtransport_1_1Bicycle_1a7d2be572f09c78b4d4ae38ef22f3e98b', 'parent': <moxygen.compound.Compound object at 0x0000026F9CE23310>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a7d2be572f09c78b4d4ae38ef22f3e98b
+{'refid': 'classtransport_1_1Bicycle_1a5f62d09b772a7705634bfb3551803c25', 'parent': <moxygen.compound.Compound object at 0x0000026F9CE23310>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a5f62d09b772a7705634bfb3551803c25
+Parsing C:\pymoxygen\example\xml\classtransport_1_1MountainBike.xml
+{'refid': 'classtransport_1_1MountainBike_1a04caecd7e5ff7572b6ac1dc283510301', 'parent': <moxygen.compound.Compound object at 0x0000026F9CE23160>, 'kind': 'function'}
+Processing member function classtransport_1_1MountainBike_1a04caecd7e5ff7572b6ac1dc283510301
+{'refid': 'classtransport_1_1MountainBike_1afd02513876a196e98acaacdc555aeb52', 'parent': <moxygen.compound.Compound object at 0x0000026F9CE23160>, 'kind': 'function'}
+Processing member function classtransport_1_1MountainBike_1afd02513876a196e98acaacdc555aeb52
+Parsing C:\pymoxygen\example\xml\classtransport_1_1RacingBike.xml
+{'refid': 'classtransport_1_1RacingBike_1ab557c5727daa07a5001782d5dcd46c5b', 'parent': <moxygen.compound.Compound object at 0x0000026F9CE22800>, 'kind': 'function'}
+Processing member function classtransport_1_1RacingBike_1ab557c5727daa07a5001782d5dcd46c5b
+{'refid': 'classtransport_1_1RacingBike_1ad32dc3b06a453fba3e20329842bb318b', 'parent': <moxygen.compound.Compound object at 0x0000026F9CE22800>, 'kind': 'function'}
+Processing member function classtransport_1_1RacingBike_1ad32dc3b06a453fba3e20329842bb318b
+Parsing C:\pymoxygen\example\xml\namespacetransport.xml
+Parsing C:\pymoxygen\example\xml\group__bicycle.xml
+Parsing C:\pymoxygen\example\xml\group__racingbike.xml
+Parsing C:\pymoxygen\example\xml\group__mountainbike.xml
+Parsing C:\pymoxygen\example\xml\md_src_2changelog.xml
+Parsing C:\pymoxygen\example\xml\md_src_2overview.xml
+Parsing C:\pymoxygen\example\xml\dir_68267d1309a1af8e8297ef4c3efbcdba.xml
+Rendering dir 
+Cannot render dir 
+Skipping <moxygen.compound.Compound object at 0x0000026F9CC01F60>
+Rendering class transport::Bicycle
+Rendering class transport::MountainBike
+Rendering class transport::RacingBike
+Rendering namespace transport
+Rendering file bicycle.cpp
+Cannot render file bicycle.cpp
+Skipping <moxygen.compound.Compound object at 0x0000026F9CE227A0>
+Rendering file bicycle.h
+Cannot render file bicycle.h
+Skipping <moxygen.compound.Compound object at 0x0000026F9CE22440>
+Rendering file changelog.md
+Cannot render file changelog.md
+Skipping <moxygen.compound.Compound object at 0x0000026F9CE237C0>
+Rendering file mountainbike.cpp
+Cannot render file mountainbike.cpp
+Skipping <moxygen.compound.Compound object at 0x0000026F9CE23550>
+Rendering file mountainbike.h
+Cannot render file mountainbike.h
+Skipping <moxygen.compound.Compound object at 0x0000026F9CE235E0>
+Rendering file overview.md
+Cannot render file overview.md
+Skipping <moxygen.compound.Compound object at 0x0000026F9CE231F0>
+Rendering file racingbike.cpp
+Cannot render file racingbike.cpp
+Skipping <moxygen.compound.Compound object at 0x0000026F9CE223B0>
+Rendering file racingbike.h
+Cannot render file racingbike.h
+Skipping <moxygen.compound.Compound object at 0x0000026F9CE22C20>
+Rendering file transport.h
+Cannot render file transport.h
+Skipping <moxygen.compound.Compound object at 0x0000026F9CE232E0>
+Rendering group bicycle
+Rendering group racingbike
+Rendering group mountainbike
+Rendering page md_src_2changelog
+Rendering page md_src_2overview
+Rendering dir src
+Cannot render dir src
+Skipping <moxygen.compound.Compound object at 0x0000026F9CE23760>
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Parsing C:\pymoxygen\example\xml\classtransport_1_1Bicycle.xml
+{'refid': 'classtransport_1_1Bicycle_1a7df6cce8f18012fb07bef5be9dadd8ef', 'parent': <moxygen.compound.Compound object at 0x000001D80AFF5690>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a7df6cce8f18012fb07bef5be9dadd8ef
+{'refid': 'classtransport_1_1Bicycle_1a7d2be572f09c78b4d4ae38ef22f3e98b', 'parent': <moxygen.compound.Compound object at 0x000001D80AFF5690>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a7d2be572f09c78b4d4ae38ef22f3e98b
+{'refid': 'classtransport_1_1Bicycle_1a5f62d09b772a7705634bfb3551803c25', 'parent': <moxygen.compound.Compound object at 0x000001D80AFF5690>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a5f62d09b772a7705634bfb3551803c25
+Parsing C:\pymoxygen\example\xml\classtransport_1_1MountainBike.xml
+{'refid': 'classtransport_1_1MountainBike_1a04caecd7e5ff7572b6ac1dc283510301', 'parent': <moxygen.compound.Compound object at 0x000001D80AFF60E0>, 'kind': 'function'}
+Processing member function classtransport_1_1MountainBike_1a04caecd7e5ff7572b6ac1dc283510301
+{'refid': 'classtransport_1_1MountainBike_1afd02513876a196e98acaacdc555aeb52', 'parent': <moxygen.compound.Compound object at 0x000001D80AFF60E0>, 'kind': 'function'}
+Processing member function classtransport_1_1MountainBike_1afd02513876a196e98acaacdc555aeb52
+Parsing C:\pymoxygen\example\xml\classtransport_1_1RacingBike.xml
+{'refid': 'classtransport_1_1RacingBike_1ab557c5727daa07a5001782d5dcd46c5b', 'parent': <moxygen.compound.Compound object at 0x000001D80AFF5630>, 'kind': 'function'}
+Processing member function classtransport_1_1RacingBike_1ab557c5727daa07a5001782d5dcd46c5b
+{'refid': 'classtransport_1_1RacingBike_1ad32dc3b06a453fba3e20329842bb318b', 'parent': <moxygen.compound.Compound object at 0x000001D80AFF5630>, 'kind': 'function'}
+Processing member function classtransport_1_1RacingBike_1ad32dc3b06a453fba3e20329842bb318b
+Parsing C:\pymoxygen\example\xml\namespacetransport.xml
+Parsing C:\pymoxygen\example\xml\group__bicycle.xml
+Parsing C:\pymoxygen\example\xml\group__racingbike.xml
+Parsing C:\pymoxygen\example\xml\group__mountainbike.xml
+Parsing C:\pymoxygen\example\xml\md_src_2changelog.xml
+Parsing C:\pymoxygen\example\xml\md_src_2overview.xml
+Parsing C:\pymoxygen\example\xml\dir_68267d1309a1af8e8297ef4c3efbcdba.xml
+Rendering dir 
+Cannot render dir 
+Skipping <moxygen.compound.Compound object at 0x000001D80B1FA530>
+Rendering class transport::Bicycle
+Rendering class transport::MountainBike
+Rendering class transport::RacingBike
+Rendering namespace transport
+Rendering file bicycle.cpp
+Cannot render file bicycle.cpp
+Skipping <moxygen.compound.Compound object at 0x000001D80AFF5600>
+Rendering file bicycle.h
+Cannot render file bicycle.h
+Skipping <moxygen.compound.Compound object at 0x000001D80AFF6530>
+Rendering file changelog.md
+Cannot render file changelog.md
+Skipping <moxygen.compound.Compound object at 0x000001D80AFF59C0>
+Rendering file mountainbike.cpp
+Cannot render file mountainbike.cpp
+Skipping <moxygen.compound.Compound object at 0x000001D80AFF5A50>
+Rendering file mountainbike.h
+Cannot render file mountainbike.h
+Skipping <moxygen.compound.Compound object at 0x000001D80AFF5B70>
+Rendering file overview.md
+Cannot render file overview.md
+Skipping <moxygen.compound.Compound object at 0x000001D80AFF5C90>
+Rendering file racingbike.cpp
+Cannot render file racingbike.cpp
+Skipping <moxygen.compound.Compound object at 0x000001D80AFF5BA0>
+Rendering file racingbike.h
+Cannot render file racingbike.h
+Skipping <moxygen.compound.Compound object at 0x000001D80AFF5960>
+Rendering file transport.h
+Cannot render file transport.h
+Skipping <moxygen.compound.Compound object at 0x000001D80AFF5780>
+Rendering group bicycle
+Rendering group racingbike
+Rendering group mountainbike
+Rendering page md_src_2changelog
+Rendering page md_src_2overview
+Rendering dir src
+Cannot render dir src
+Skipping <moxygen.compound.Compound object at 0x000001D80AFF5B40>
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Parsing C:\pymoxygen\example\xml\classtransport_1_1Bicycle.xml
+{'refid': 'classtransport_1_1Bicycle_1a7df6cce8f18012fb07bef5be9dadd8ef', 'parent': <moxygen.compound.Compound object at 0x000001A93F422FB0>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a7df6cce8f18012fb07bef5be9dadd8ef
+{'refid': 'classtransport_1_1Bicycle_1a7d2be572f09c78b4d4ae38ef22f3e98b', 'parent': <moxygen.compound.Compound object at 0x000001A93F422FB0>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a7d2be572f09c78b4d4ae38ef22f3e98b
+{'refid': 'classtransport_1_1Bicycle_1a5f62d09b772a7705634bfb3551803c25', 'parent': <moxygen.compound.Compound object at 0x000001A93F422FB0>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a5f62d09b772a7705634bfb3551803c25
+Parsing C:\pymoxygen\example\xml\classtransport_1_1MountainBike.xml
+{'refid': 'classtransport_1_1MountainBike_1a04caecd7e5ff7572b6ac1dc283510301', 'parent': <moxygen.compound.Compound object at 0x000001A93F423A00>, 'kind': 'function'}
+Processing member function classtransport_1_1MountainBike_1a04caecd7e5ff7572b6ac1dc283510301
+{'refid': 'classtransport_1_1MountainBike_1afd02513876a196e98acaacdc555aeb52', 'parent': <moxygen.compound.Compound object at 0x000001A93F423A00>, 'kind': 'function'}
+Processing member function classtransport_1_1MountainBike_1afd02513876a196e98acaacdc555aeb52
+Parsing C:\pymoxygen\example\xml\classtransport_1_1RacingBike.xml
+{'refid': 'classtransport_1_1RacingBike_1ab557c5727daa07a5001782d5dcd46c5b', 'parent': <moxygen.compound.Compound object at 0x000001A93F209F60>, 'kind': 'function'}
+Processing member function classtransport_1_1RacingBike_1ab557c5727daa07a5001782d5dcd46c5b
+{'refid': 'classtransport_1_1RacingBike_1ad32dc3b06a453fba3e20329842bb318b', 'parent': <moxygen.compound.Compound object at 0x000001A93F209F60>, 'kind': 'function'}
+Processing member function classtransport_1_1RacingBike_1ad32dc3b06a453fba3e20329842bb318b
+Parsing C:\pymoxygen\example\xml\namespacetransport.xml
+Parsing C:\pymoxygen\example\xml\group__bicycle.xml
+Parsing C:\pymoxygen\example\xml\group__racingbike.xml
+Parsing C:\pymoxygen\example\xml\group__mountainbike.xml
+Parsing C:\pymoxygen\example\xml\md_src_2changelog.xml
+Parsing C:\pymoxygen\example\xml\md_src_2overview.xml
+Parsing C:\pymoxygen\example\xml\dir_68267d1309a1af8e8297ef4c3efbcdba.xml
+Rendering dir 
+Cannot render dir 
+Skipping <moxygen.compound.Compound object at 0x000001A93ECBC280>
+Rendering class transport::Bicycle
+Rendering class transport::MountainBike
+Rendering class transport::RacingBike
+Rendering namespace transport
+Rendering file bicycle.cpp
+Cannot render file bicycle.cpp
+Skipping <moxygen.compound.Compound object at 0x000001A93F432A10>
+Rendering file bicycle.h
+Cannot render file bicycle.h
+Skipping <moxygen.compound.Compound object at 0x000001A93F4318D0>
+Rendering file changelog.md
+Cannot render file changelog.md
+Skipping <moxygen.compound.Compound object at 0x000001A93F433430>
+Rendering file mountainbike.cpp
+Cannot render file mountainbike.cpp
+Skipping <moxygen.compound.Compound object at 0x000001A93F431330>
+Rendering file mountainbike.h
+Cannot render file mountainbike.h
+Skipping <moxygen.compound.Compound object at 0x000001A93F431ED0>
+Rendering file overview.md
+Cannot render file overview.md
+Skipping <moxygen.compound.Compound object at 0x000001A93F431030>
+Rendering file racingbike.cpp
+Cannot render file racingbike.cpp
+Skipping <moxygen.compound.Compound object at 0x000001A93F433070>
+Rendering file racingbike.h
+Cannot render file racingbike.h
+Skipping <moxygen.compound.Compound object at 0x000001A93F431540>
+Rendering file transport.h
+Cannot render file transport.h
+Skipping <moxygen.compound.Compound object at 0x000001A93F431FF0>
+Rendering group bicycle
+Rendering group racingbike
+Rendering group mountainbike
+Rendering page md_src_2changelog
+Rendering page md_src_2overview
+Rendering dir src
+Cannot render dir src
+Skipping <moxygen.compound.Compound object at 0x000001A93F423280>
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Parsing C:\pymoxygen\example\xml\classtransport_1_1Bicycle.xml
+{'refid': 'classtransport_1_1Bicycle_1a7df6cce8f18012fb07bef5be9dadd8ef', 'parent': <moxygen.compound.Compound object at 0x000001EBB322BD90>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a7df6cce8f18012fb07bef5be9dadd8ef
+{'refid': 'classtransport_1_1Bicycle_1a7d2be572f09c78b4d4ae38ef22f3e98b', 'parent': <moxygen.compound.Compound object at 0x000001EBB322BD90>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a7d2be572f09c78b4d4ae38ef22f3e98b
+{'refid': 'classtransport_1_1Bicycle_1a5f62d09b772a7705634bfb3551803c25', 'parent': <moxygen.compound.Compound object at 0x000001EBB322BD90>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a5f62d09b772a7705634bfb3551803c25
+Parsing C:\pymoxygen\example\xml\classtransport_1_1MountainBike.xml
+{'refid': 'classtransport_1_1MountainBike_1a04caecd7e5ff7572b6ac1dc283510301', 'parent': <moxygen.compound.Compound object at 0x000001EBB322B340>, 'kind': 'function'}
+Processing member function classtransport_1_1MountainBike_1a04caecd7e5ff7572b6ac1dc283510301
+{'refid': 'classtransport_1_1MountainBike_1afd02513876a196e98acaacdc555aeb52', 'parent': <moxygen.compound.Compound object at 0x000001EBB322B340>, 'kind': 'function'}
+Processing member function classtransport_1_1MountainBike_1afd02513876a196e98acaacdc555aeb52
+Parsing C:\pymoxygen\example\xml\classtransport_1_1RacingBike.xml
+{'refid': 'classtransport_1_1RacingBike_1ab557c5727daa07a5001782d5dcd46c5b', 'parent': <moxygen.compound.Compound object at 0x000001EBB393EC50>, 'kind': 'function'}
+Processing member function classtransport_1_1RacingBike_1ab557c5727daa07a5001782d5dcd46c5b
+{'refid': 'classtransport_1_1RacingBike_1ad32dc3b06a453fba3e20329842bb318b', 'parent': <moxygen.compound.Compound object at 0x000001EBB393EC50>, 'kind': 'function'}
+Processing member function classtransport_1_1RacingBike_1ad32dc3b06a453fba3e20329842bb318b
+Parsing C:\pymoxygen\example\xml\namespacetransport.xml
+Parsing C:\pymoxygen\example\xml\group__bicycle.xml
+Parsing C:\pymoxygen\example\xml\group__racingbike.xml
+Parsing C:\pymoxygen\example\xml\group__mountainbike.xml
+Parsing C:\pymoxygen\example\xml\md_src_2changelog.xml
+Parsing C:\pymoxygen\example\xml\md_src_2overview.xml
+Parsing C:\pymoxygen\example\xml\dir_68267d1309a1af8e8297ef4c3efbcdba.xml
+Rendering dir 
+Cannot render dir 
+Skipping <moxygen.compound.Compound object at 0x000001EBB319CB50>
+Rendering class transport::Bicycle
+Rendering class transport::MountainBike
+Rendering class transport::RacingBike
+Rendering namespace transport
+Rendering file bicycle.cpp
+Cannot render file bicycle.cpp
+Skipping <moxygen.compound.Compound object at 0x000001EBB393C7C0>
+Rendering file bicycle.h
+Cannot render file bicycle.h
+Skipping <moxygen.compound.Compound object at 0x000001EBB393D600>
+Rendering file changelog.md
+Cannot render file changelog.md
+Skipping <moxygen.compound.Compound object at 0x000001EBB393D000>
+Rendering file mountainbike.cpp
+Cannot render file mountainbike.cpp
+Skipping <moxygen.compound.Compound object at 0x000001EBB393DF00>
+Rendering file mountainbike.h
+Cannot render file mountainbike.h
+Skipping <moxygen.compound.Compound object at 0x000001EBB393C850>
+Rendering file overview.md
+Cannot render file overview.md
+Skipping <moxygen.compound.Compound object at 0x000001EBB393D6F0>
+Rendering file racingbike.cpp
+Cannot render file racingbike.cpp
+Skipping <moxygen.compound.Compound object at 0x000001EBB393E980>
+Rendering file racingbike.h
+Cannot render file racingbike.h
+Skipping <moxygen.compound.Compound object at 0x000001EBB393ECE0>
+Rendering file transport.h
+Cannot render file transport.h
+Skipping <moxygen.compound.Compound object at 0x000001EBB322B700>
+Rendering group bicycle
+Rendering group racingbike
+Rendering group mountainbike
+Rendering page md_src_2changelog
+Rendering page md_src_2overview
+Rendering dir src
+Cannot render dir src
+Skipping <moxygen.compound.Compound object at 0x000001EBB322B370>
+Parsing C:\pymoxygen\example\xml\classtransport_1_1Bicycle.xml
+{'refid': 'classtransport_1_1Bicycle_1a7df6cce8f18012fb07bef5be9dadd8ef', 'parent': <moxygen.compound.Compound object at 0x0000029DFAC8F940>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a7df6cce8f18012fb07bef5be9dadd8ef
+{'refid': 'classtransport_1_1Bicycle_1a7d2be572f09c78b4d4ae38ef22f3e98b', 'parent': <moxygen.compound.Compound object at 0x0000029DFAC8F940>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a7d2be572f09c78b4d4ae38ef22f3e98b
+{'refid': 'classtransport_1_1Bicycle_1a5f62d09b772a7705634bfb3551803c25', 'parent': <moxygen.compound.Compound object at 0x0000029DFAC8F940>, 'kind': 'function'}
+Processing member function classtransport_1_1Bicycle_1a5f62d09b772a7705634bfb3551803c25
+Parsing C:\pymoxygen\example\xml\classtransport_1_1MountainBike.xml
+{'refid': 'classtransport_1_1MountainBike_1a04caecd7e5ff7572b6ac1dc283510301', 'parent': <moxygen.compound.Compound object at 0x0000029DFAC8FCA0>, 'kind': 'function'}
+Processing member function classtransport_1_1MountainBike_1a04caecd7e5ff7572b6ac1dc283510301
+{'refid': 'classtransport_1_1MountainBike_1afd02513876a196e98acaacdc555aeb52', 'parent': <moxygen.compound.Compound object at 0x0000029DFAC8FCA0>, 'kind': 'function'}
+Processing member function classtransport_1_1MountainBike_1afd02513876a196e98acaacdc555aeb52
+Parsing C:\pymoxygen\example\xml\classtransport_1_1RacingBike.xml
+{'refid': 'classtransport_1_1RacingBike_1ab557c5727daa07a5001782d5dcd46c5b', 'parent': <moxygen.compound.Compound object at 0x0000029DFAC8F5B0>, 'kind': 'function'}
+Processing member function classtransport_1_1RacingBike_1ab557c5727daa07a5001782d5dcd46c5b
+{'refid': 'classtransport_1_1RacingBike_1ad32dc3b06a453fba3e20329842bb318b', 'parent': <moxygen.compound.Compound object at 0x0000029DFAC8F5B0>, 'kind': 'function'}
+Processing member function classtransport_1_1RacingBike_1ad32dc3b06a453fba3e20329842bb318b
+Parsing C:\pymoxygen\example\xml\namespacetransport.xml
+Parsing C:\pymoxygen\example\xml\group__bicycle.xml
+Parsing C:\pymoxygen\example\xml\group__racingbike.xml
+Parsing C:\pymoxygen\example\xml\group__mountainbike.xml
+Parsing C:\pymoxygen\example\xml\md_src_2changelog.xml
+Parsing C:\pymoxygen\example\xml\md_src_2overview.xml
+Parsing C:\pymoxygen\example\xml\dir_68267d1309a1af8e8297ef4c3efbcdba.xml
+Rendering dir 
+Cannot render dir 
+Skipping <moxygen.compound.Compound object at 0x0000029DFAA85F30>
+Rendering class transport::Bicycle
+Rendering class transport::MountainBike
+Rendering class transport::RacingBike
+Rendering namespace transport
+Rendering file bicycle.cpp
+Cannot render file bicycle.cpp
+Skipping <moxygen.compound.Compound object at 0x0000029DFAC8F2E0>
+Rendering file bicycle.h
+Cannot render file bicycle.h
+Skipping <moxygen.compound.Compound object at 0x0000029DFAC8CAF0>
+Rendering file changelog.md
+Cannot render file changelog.md
+Skipping <moxygen.compound.Compound object at 0x0000029DFAC8EBC0>
+Rendering file mountainbike.cpp
+Cannot render file mountainbike.cpp
+Skipping <moxygen.compound.Compound object at 0x0000029DFAC8E7A0>
+Rendering file mountainbike.h
+Cannot render file mountainbike.h
+Skipping <moxygen.compound.Compound object at 0x0000029DFAC8E650>
+Rendering file overview.md
+Cannot render file overview.md
+Skipping <moxygen.compound.Compound object at 0x0000029DFAC8DA20>
+Rendering file racingbike.cpp
+Cannot render file racingbike.cpp
+Skipping <moxygen.compound.Compound object at 0x0000029DFAC8FC10>
+Rendering file racingbike.h
+Cannot render file racingbike.h
+Skipping <moxygen.compound.Compound object at 0x0000029DFAC8D000>
+Rendering file transport.h
+Cannot render file transport.h
+Skipping <moxygen.compound.Compound object at 0x0000029DFAC8FF70>
+Rendering group bicycle
+Rendering group racingbike
+Rendering group mountainbike
+Rendering page md_src_2changelog
+Rendering page md_src_2overview
+Rendering dir src
+Cannot render dir src
+Skipping <moxygen.compound.Compound object at 0x0000029DFAC8D570>
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md
+Writing: ./doc/readme.md

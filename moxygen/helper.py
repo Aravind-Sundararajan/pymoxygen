@@ -36,12 +36,12 @@ def inline(code):
 
 
 def get_anchor(name, options):
-    if options['anchors']:
-        return '{{#{}{}}}'.format(name, '}')
-    elif options['htmlAnchors']:
-        return '<a id="{}"></a>'.format(name)
-    else:
-        return ''
+    # if options == 'anchors':
+    return '{{#{}{}}}'.format(name, '}')
+    # elif options =='htmlAnchors':
+    #     return '<a id="{}"></a>'.format(name)
+    # else:
+    #     return ''
 
 
 def find_parent(compound, kinds):
@@ -90,5 +90,5 @@ def write_file(filepath, contents):
     dirPath = os.path.dirname(filepath)
     if not os.path.exists(dirPath):
         os.makedirs(dirPath)
-    with open(filepath, 'w') as f:
+    with open(filepath, 'a') as f:
         f.write(''.join(contents))

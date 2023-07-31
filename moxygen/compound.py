@@ -40,14 +40,9 @@ class Compound:
 
     def to_filtered_array(self, type_='compounds'):
         all_arr = []
-        if type_ in self.filtered:
-            all_arr = [item.to_filtered_array(type_) for item in self.filtered[type_]]
-            if all_arr == []:
-                all_arr = all_arr.append(self)
-        print("ALL ARR")
-        print(all_arr)
-        flattened_arr = list(chain.from_iterable(all_arr))
-        return flattened_arr
+        if type_ == 'compounds':
+            all_arr = self.to_array()
+        return all_arr
 
     def filter_children(self, filters, groupid=None):
         member_filter = {}
