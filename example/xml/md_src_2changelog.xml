@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="md_src_2changelog" kind="page">
+    <compoundname>md_src_2changelog</compoundname>
+    <title>Changelog</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><heading level="1">Version 1.0.1</heading>
+</para>
+<para><itemizedlist>
+<listitem><para>Pedalling harder no longer stands in the saddle by default. This is just better form.</para>
+</listitem></itemizedlist>
+</para>
+<para><heading level="1">Version 1.0.0</heading>
+</para>
+<para><itemizedlist>
+<listitem><para>Initial release </para>
+</listitem></itemizedlist>
+</para>
+    </detaileddescription>
+    <location file="src/changelog.md"/>
+  </compounddef>
+</doxygen>

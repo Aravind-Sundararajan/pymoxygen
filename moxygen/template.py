@@ -1,10 +1,11 @@
 import os
-import logging
 import os.path as path
 import pybars as handlebars
 
 import moxygen.doxyparser as doxyparser
 import moxygen.helper as helper
+from moxygen.logger import getLogger
+
 
 class Renderer:
     def __init__(self):
@@ -20,13 +21,13 @@ class Renderer:
                 template = handlebars.Compiler().compile(file.read()) #NoEscape=True, ,  strict=True
                 self.templates[filename[:-3]] = template
 
-    def render(self, compound_array):
-        log = logging.getLogger(__name__)
+    def render(self, compound):
+        log = getLogger()
         template = None
-        compound = compound_array[0]
+        print("COMPOUND")
+        print(compound)
         log.info(f'Rendering {compound.kind} {compound.name}')
-        for elem in dir(compound):
-            print(elem + " : " + str(compound.__getattribute__(elem)))
+
         if compound.kind == 'index':
             template = 'index'
         elif compound.kind == 'page':
@@ -68,6 +69,7 @@ class Renderer:
         def anchor(name):
             return helper.get_anchor(name, options)
         self.helpers['anchor']= anchor
+
 
 if __name__ == "__main__":
     r = Renderer()

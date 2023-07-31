@@ -1,6 +1,5 @@
 from moxygen.logger import getLogger
 
-from functools import reduce
 from itertools import chain
 
 class Compound:
@@ -30,19 +29,19 @@ class Compound:
         for compound in arr:
             this_arr = compound.to_array(type, kind)
             all_arr = all_arr + this_arr
-        return list(chain(all_arr))
+        return list(chain(*all_arr))
 
     def to_filtered_array(self, type='compounds'):
         all_arr = [item.to_filtered_array(type) for item in self.filtered.get(type, [])]
-        return list(chain(all_arr))
+        return list(chain(*all_arr))
 
-    def filter_children(self, filters, groupid):
+    def filter_children(self, filters, groupid=None):
         member_filter = ""
         compound_filter = ""
 
         if filters is not None:
             member_filter = filters['members']
-            compound_filter = filters['compound']
+            compound_filter = filters['compounds']
 
         for compound in self.to_array('compounds'):
             compound.filtered['members'] = compound.filter(compound.members, 'section', member_filter, groupid)
@@ -51,7 +50,7 @@ class Compound:
         self.filtered['members'] = self.filter(self.members, 'section',  member_filter, groupid)
         self.filtered['compounds'] = self.filter(self.compounds, 'kind', compound_filter, groupid)
 
-    def filter(self, collection, key, filters, groupid):
+    def filter(self, collection, key, filters, groupid=None):
         categories = {}
         result = []
         if collection:
@@ -60,10 +59,13 @@ class Compound:
                     if item.kind == 'namespace' and 'compounds' not in item.filtered and 'members' not in item.filtered:
                         continue
 
-
                     if groupid and item.groupid != groupid:
                         continue
-                    categories.setdefault(item.__getattribute__(key), []).append(item)
+
+                    if item.__getattribute__(key) not in categories:
+                        categories[item.__getattribute__(key)] = []
+
+                    categories[item.__getattribute__(key)].append(item)
 
             for category in filters:
                 result += categories.get(category, [])

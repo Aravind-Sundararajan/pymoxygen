@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
   <compounddef id="group__mountainbike" kind="group">
     <compoundname>mountainbike</compoundname>
     <title>Mountain bike module</title>
@@ -7,6 +7,7 @@
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>Mountain bike module contains the <computeroutput>MountainBike</computeroutput> class. Mountain bikes are a kind of bike for cycling on rough terrain. </para>    </detaileddescription>
+<para>Mountain bike module contains the <computeroutput>MountainBike</computeroutput> class. Mountain bikes are a kind of bike for cycling on rough terrain. </para>
+    </detaileddescription>
   </compounddef>
 </doxygen>

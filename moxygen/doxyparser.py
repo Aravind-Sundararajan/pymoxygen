@@ -1,14 +1,16 @@
 import os
-import xml.etree.ElementTree as ET
 import re
-from functools import reduce
-from itertools import chain
+import xml.etree.ElementTree as ET
+
 from moxygen.compound import Compound
+from moxygen.logger import getLogger
+
 
 class DoxygenParser:
     def __init__(self):
         self.references = {}
         self.root = Compound()
+        self.log = getLogger()
 
     def to_markdown(self, element, context=None):
         s = ''
@@ -56,7 +58,7 @@ class DoxygenParser:
                 elif element['$']['kind'] == 'see':
                     s = '**See also**: '
                 else:
-                    print(element['$']['kind'] + ' not supported.')
+                    self.log.info(element['$']['kind'] + ' not supported.')
             elif element_name == 'formula':
                 s = self.trim(element['_'])
                 if s.startswith('$') and s.endswith('$'):
@@ -82,7 +84,7 @@ class DoxygenParser:
                                   'parameterdescription', 'parameternamelist', 'xrefdescription', 'verbatim', 'hruler', None):
                 pass
             else:
-                print(element_name + ': not yet supported.')
+                self.log.info(element_name + ': not yet supported.')
 
             if element.get('$$'):
                 s += self.to_markdown(element['$$'], context)
@@ -131,7 +133,7 @@ class DoxygenParser:
             elif element_name == 'compounddef':
                 pass
             else:
-                print(element_name + ': not yet supported.')
+                self.log.info(element_name + ': not yet supported.')
 
         return s
 
@@ -191,7 +193,8 @@ class DoxygenParser:
                 self.references[member["refid"]] = member
 
     def parse_member(self, member, section, member_def):
-        print('Processing member {} {}'.format(member['kind'], member['refid']))
+        self.log.info(member)
+        self.log.info('Processing member {} {}'.format(member['kind'], member['refid']))
         member['section'] = section
         self.copy(member, 'briefdescription', member_def)
         self.copy(member, 'detaileddescription', member_def)
@@ -260,7 +263,7 @@ class DoxygenParser:
 
     def assign_to_namespace(self, compound, child):
         if compound.name != child['namespace']:
-            print('namespace mismatch:', compound.name, '!=', child['namespace'])
+            self.log.info('namespace mismatch:', compound.name, '!=', child['namespace'])
         if child['parent']:
             del child['parent']['compounds'][child['id']]
         compound.compounds[child['id']] = child
@@ -292,12 +295,8 @@ class DoxygenParser:
                 self.extract_page_sections(page, element['$$'])
 
     def parse_compound(self, compound, compound_def):
-        print("compound def props:")
         for prop in compound_def.attrib:
-            print(prop + " : " + compound_def.attrib[prop])
             compound.__setattr__(prop,compound_def.attrib[prop])
-        #compound.__setattr__('kind', compound_def.find('kind').strip())
-        #compound.__setattr__('fullname', compound_def.find('compoundname').text.strip())
         self.copy(compound, 'briefdescription', compound_def)
         self.copy(compound, 'detaileddescription', compound_def)
         self.summary(compound, compound_def)
@@ -355,7 +354,7 @@ class DoxygenParser:
             compound = root.find(element.attrib['refid'], element.find('name').text, True)
             self.parse_members(compound, element.attrib, element.findall('member'))
             if compound.kind != 'file':
-                print('Parsing', os.path.join(options['directory'], compound.refid + '.xml'))
+                self.log.info('Parsing ' + str(os.path.join(options['directory'], compound.refid + '.xml')))
                 doxygen = ET.parse(os.path.join(options['directory'], compound.refid + '.xml'))
                 self.parse_compound(compound, doxygen.find('//compounddef'))
 

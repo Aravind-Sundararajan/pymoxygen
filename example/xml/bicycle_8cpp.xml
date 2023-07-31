@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
   <compounddef id="bicycle_8cpp" kind="file" language="C++">
     <compoundname>bicycle.cpp</compoundname>
     <includes refid="bicycle_8h" local="yes">bicycle.h</includes>
     <incdepgraph>
       <node id="1">
-        <label>bicycle.h</label>
-        <link refid="bicycle_8h_source"/>
-      </node>
-      <node id="0">
         <label>src/bicycle.cpp</label>
         <link refid="bicycle_8cpp"/>
-        <childnode refid="1" relation="include">
+        <childnode refid="2" relation="include">
         </childnode>
+      </node>
+      <node id="2">
+        <label>bicycle.h</label>
+        <link refid="bicycle_8h_source"/>
       </node>
     </incdepgraph>
     <briefdescription>
@@ -22,7 +22,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;bicycle.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespacetransport" kindref="compound">transport</ref>;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">transport;</highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"><ref refid="classtransport_1_1Bicycle_1a5f62d09b772a7705634bfb3551803c25" kindref="member">Bicycle::~Bicycle</ref>()</highlight></codeline>
 <codeline lineno="6"><highlight class="normal">{</highlight></codeline>

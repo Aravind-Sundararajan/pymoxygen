@@ -3,6 +3,7 @@ import re
 import python_utils as util
 from moxygen.logger import getLogger
 
+
 def inline(code):
     if isinstance(code, list):
         s = ''
@@ -33,6 +34,7 @@ def inline(code):
     else:
         return '`{}`'.format(code)
 
+
 def get_anchor(name, options):
     if options['anchors']:
         return '{{#{}{}}}'.format(name, '}')
@@ -41,11 +43,13 @@ def get_anchor(name, options):
     else:
         return ''
 
+
 def find_parent(compound, kinds):
     while compound:
         if compound['kind'] in kinds:
             return compound
         compound = compound['parent']
+
 
 def resolve_refs(content, compound, references, options):
     import re
@@ -57,8 +61,11 @@ def resolve_refs(content, compound, references, options):
                   compound_path(find_parent(references[m.group(1)], ['namespace', 'class', 'struct']), options) + '#' + m.group(1),
                   content)
 
+
 def compound_path(compound, options):
-    if compound['kind'] == 'page':
+    print("COMPOUND PATH")
+    print(compound.kind)
+    if compound.kind == 'page':
         return os.path.dirname(options['output']) + "/page-" + compound['name'] + ".md"
     elif options['groups']:
         return util.format(options['output'], compound['groupname'])
@@ -67,14 +74,21 @@ def compound_path(compound, options):
     else:
         return options['output']
 
+
 def write_compound(compound, contents, references, options):
+    print(len(contents))
     for content in contents:
-        resolve_content = resolve_refs(content, compound, references, options)
-        if resolve_content:
-            write_file(compound_path(compound, options), resolve_content)
+        if content is not None:
+            resolve_content = resolve_refs(content, compound, references, options)
+            if resolve_content:
+                write_file(compound_path(compound, options), resolve_content)
+
 
 def write_file(filepath, contents):
     logger = getLogger()
-    logger.verbose('Writing: ' + filepath)
+    logger.info('Writing: ' + filepath)
+    dirPath = os.path.dirname(filepath)
+    if not os.path.exists(dirPath):
+        os.makedirs(dirPath)
     with open(filepath, 'w') as f:
         f.write(''.join(contents))

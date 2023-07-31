@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
   <compounddef id="bicycle_8h" kind="file" language="C++">
     <compoundname>bicycle.h</compoundname>
     <includedby refid="bicycle_8cpp" local="yes">src/bicycle.cpp</includedby>
@@ -13,7 +13,7 @@
 <codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>__TRANSPORT_BICYCLE_H__</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__TRANSPORT_BICYCLE_H__</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacetransport" kindref="compound">transport</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">transport</highlight></codeline>
 <codeline lineno="5"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="16" refid="classtransport_1_1Bicycle" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classtransport_1_1Bicycle" kindref="compound">Bicycle</ref></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
